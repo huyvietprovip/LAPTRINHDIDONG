@@ -1,0 +1,7 @@
+[
+  { "id": "P.102", "name": "Cấm đi ngược chiều", "group": "Biển cấm", "meaning": "Cấm các loại xe đi vào theo chiều biển đặt.", "imagePath": "assets/images/signs/p102.png" },
+  { "id": "P.104", "name": "Cấm xe máy", "group": "Biển cấm", "meaning": "Cấm xe máy đi vào đoạn đường có đặt biển.", "imagePath": "assets/images/signs/p104.png" },
+  { "id": "P.131", "name": "Cấm đỗ xe", "group": "Biển cấm", "meaning": "Cấm đỗ xe trên đoạn đường có đặt biển.", "imagePath": "assets/images/signs/p131.png" },
+  { "id": "W.201a", "name": "Chỗ ngoặt nguy hiểm vòng bên trái", "group": "Biển nguy hiểm", "meaning": "Báo trước đoạn đường có chỗ ngoặt nguy hiểm vòng bên trái.", "imagePath": "assets/images/signs/w201a.png" },
+  { "id": "R.301a", "name": "Hướng đi phải theo (đi thẳng)", "group": "Biển hiệu lệnh", "meaning": "Các xe chỉ được đi thẳng.", "imagePath": "assets/images/signs/r301a.png" }
+]

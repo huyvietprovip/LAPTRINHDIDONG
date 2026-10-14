@@ -1,0 +1,6 @@
+[
+  { "id": "khai_niem", "name": "Khái niệm và quy tắc", "description": "Các khái niệm cơ bản trong luật giao thông" },
+  { "id": "van_hoa", "name": "Văn hóa và đạo đức", "description": "Ứng xử khi tham gia giao thông" },
+  { "id": "bien_bao", "name": "Biển báo", "description": "Ý nghĩa các biển báo đường bộ" },
+  { "id": "sa_hinh", "name": "Sa hình", "description": "Xử lý tình huống giao thông" }
+]

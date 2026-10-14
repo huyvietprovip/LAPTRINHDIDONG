@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "content": "Khi lái xe mô tô, người lái xe phải làm gì với mũ bảo hiểm?",
+    "topicId": "khai_niem",
+    "explanation": "Người lái và người ngồi sau phải đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách.",
+    "isCritical": false,
+    "answers": [
+      { "id": 1, "content": "Không cần đội nếu đi quãng đường ngắn", "isCorrect": false },
+      { "id": 2, "content": "Đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách", "isCorrect": true },
+      { "id": 3, "content": "Chỉ cần đội khi đi đường cao tốc", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "Khi gặp đèn tín hiệu giao thông màu đỏ, người điều khiển xe phải làm gì?",
+    "topicId": "khai_niem",
+    "explanation": "Đèn đỏ có nghĩa là cấm đi, xe phải dừng lại trước vạch dừng.",
+    "isCritical": false,
+    "answers": [
+      { "id": 1, "content": "Tăng tốc để qua nhanh", "isCorrect": false },
+      { "id": 2, "content": "Giảm tốc độ và đi tiếp nếu không có xe", "isCorrect": false },
+      { "id": 3, "content": "Dừng lại trước vạch dừng", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "Người đã uống rượu, bia có được điều khiển xe tham gia giao thông không?",
+    "topicId": "van_hoa",
+    "explanation": "Luật nghiêm cấm điều khiển phương tiện khi trong cơ thể có cồn. Đây là câu điểm liệt.",
+    "isCritical": true,
+    "answers": [
+      { "id": 1, "content": "Được, nếu uống ít", "isCorrect": false },
+      { "id": 2, "content": "Không được", "isCorrect": true },
+      { "id": 3, "content": "Được, nếu đi chậm", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "Biển báo P.102 có ý nghĩa gì?",
+    "topicId": "bien_bao",
+    "explanation": "Biển P.102 là biển cấm đi ngược chiều.",
+    "imagePath": "assets/images/signs/p102.png",
+    "isCritical": false,
+    "answers": [
+      { "id": 1, "content": "Cấm đi ngược chiều", "isCorrect": true },
+      { "id": 2, "content": "Đường một chiều", "isCorrect": false },
+      { "id": 3, "content": "Cấm dừng xe và đỗ xe", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Người lái xe cần làm gì khi muốn chuyển hướng?",
+    "topicId": "van_hoa",
+    "explanation": "Phải giảm tốc độ và bật tín hiệu báo hướng rẽ trước khi chuyển hướng.",
+    "isCritical": false,
+    "answers": [
+      { "id": 1, "content": "Bật tín hiệu báo hướng rẽ và giảm tốc độ", "isCorrect": true },
+      { "id": 2, "content": "Rẽ đột ngột để tránh xe phía sau", "isCorrect": false },
+      { "id": 3, "content": "Chỉ cần bóp còi", "isCorrect": false }
+    ]
+  }
+]
