@@ -1,63 +1,5552 @@
 [
   {
     "id": 1,
-    "content": "Khi lái xe mô tô, người lái xe phải làm gì với mũ bảo hiểm?",
-    "topicId": "khai_niem",
-    "explanation": "Người lái và người ngồi sau phải đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách.",
-    "isCritical": false,
+    "question": "Phần của đường bộ được sử dụng cho phương tiện giao thông đường bộ đi lại là gì?",
     "answers": [
-      { "id": 1, "content": "Không cần đội nếu đi quãng đường ngắn", "isCorrect": false },
-      { "id": 2, "content": "Đội mũ bảo hiểm đạt chuẩn và cài quai đúng quy cách", "isCorrect": true },
-      { "id": 3, "content": "Chỉ cần đội khi đi đường cao tốc", "isCorrect": false }
-    ]
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
   },
   {
     "id": 2,
-    "content": "Khi gặp đèn tín hiệu giao thông màu đỏ, người điều khiển xe phải làm gì?",
-    "topicId": "khai_niem",
-    "explanation": "Đèn đỏ có nghĩa là cấm đi, xe phải dừng lại trước vạch dừng.",
-    "isCritical": false,
+    "question": "Làn đường là gì?",
     "answers": [
-      { "id": 1, "content": "Tăng tốc để qua nhanh", "isCorrect": false },
-      { "id": 2, "content": "Giảm tốc độ và đi tiếp nếu không có xe", "isCorrect": false },
-      { "id": 3, "content": "Dừng lại trước vạch dừng", "isCorrect": true }
-    ]
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ chiều rộng cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
   },
   {
     "id": 3,
-    "content": "Người đã uống rượu, bia có được điều khiển xe tham gia giao thông không?",
-    "topicId": "van_hoa",
-    "explanation": "Luật nghiêm cấm điều khiển phương tiện khi trong cơ thể có cồn. Đây là câu điểm liệt.",
-    "isCritical": true,
+    "question": "Khổ giới hạn của đường bộ được hiểu như thế nào là đúng?",
     "answers": [
-      { "id": 1, "content": "Được, nếu uống ít", "isCorrect": false },
-      { "id": 2, "content": "Không được", "isCorrect": true },
-      { "id": 3, "content": "Được, nếu đi chậm", "isCorrect": false }
-    ]
+      {
+        "id": 1,
+        "content": "Khổ giới hạn của đường bộ là khoảng trống có kích thước giới hạn về chiều rộng, chiều cao của đường bộ để các xe, bao gồm cả hàng hoá xếp trên xe đi qua được an toàn và được xác định theo quy chuẩn, tiêu chuẩn kỹ thuật của đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là khoảng trống có kích thước giới hạn về chiều cao của cầu, bến phà, hầm trên đường bộ để các xe đi qua được an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
   },
   {
     "id": 4,
-    "content": "Biển báo P.102 có ý nghĩa gì?",
-    "topicId": "bien_bao",
-    "explanation": "Biển P.102 là biển cấm đi ngược chiều.",
-    "imagePath": "assets/images/signs/p102.png",
-    "isCritical": false,
+    "question": "Dải phân cách được lắp đặt để làm gì?",
     "answers": [
-      { "id": 1, "content": "Cấm đi ngược chiều", "isCorrect": true },
-      { "id": 2, "content": "Đường một chiều", "isCorrect": false },
-      { "id": 3, "content": "Cấm dừng xe và đỗ xe", "isCorrect": false }
-    ]
+      {
+        "id": 1,
+        "content": "Để phân chia các làn đường dành cho xe cơ giới và xe thô sơ trên đường cao tốc."
+      },
+      {
+        "id": 2,
+        "content": "Để phân chia phần đường xe chạy thành hai chiều riêng biệt hoặc để phân chia phần đường dành cho xe cơ giới và xe thô sơ hoặc của nhiều loại xe khác nhau trên cùng một chiều đường."
+      },
+      {
+        "id": 3,
+        "content": "Để phân tách phần đường xe chạy và hành lang an toàn giao thông."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
   },
   {
     "id": 5,
-    "content": "Người lái xe cần làm gì khi muốn chuyển hướng?",
-    "topicId": "van_hoa",
-    "explanation": "Phải giảm tốc độ và bật tín hiệu báo hướng rẽ trước khi chuyển hướng.",
-    "isCritical": false,
+    "question": "Vạch kẻ đường là gì?",
     "answers": [
-      { "id": 1, "content": "Bật tín hiệu báo hướng rẽ và giảm tốc độ", "isCorrect": true },
-      { "id": 2, "content": "Rẽ đột ngột để tránh xe phía sau", "isCorrect": false },
-      { "id": 3, "content": "Chỉ cần bóp còi", "isCorrect": false }
-    ]
+      {
+        "id": 1,
+        "content": "Là báo hiệu đường bộ để hỗ trợ cảnh báo nguy hiểm cho người tham gia giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại."
+      },
+      {
+        "id": 3,
+        "content": "Là báo hiệu cho người tham gia giao thông đường bộ về các thông tin của đường bộ."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 6,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ được hiểu như thế nào là đúng?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là người điều khiển xe cơ giới, người điều khiển xe thô sơ, người điều khiển xe máy chuyên dùng."
+      },
+      {
+        "id": 2,
+        "content": "Là người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 7,
+    "question": "Người lái xe được hiểu như thế nào là đúng?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là người điều khiển xe cơ giới."
+      },
+      {
+        "id": 2,
+        "content": "Là người điều khiển xe thô sơ."
+      },
+      {
+        "id": 3,
+        "content": "Là người điều khiển xe máy chuyên dùng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 8,
+    "question": "Trong nhóm các phương tiện giao thông đường bộ dưới đây, nhóm phương tiện nào là xe cơ giới?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe ô tô; máy kéo; xe mô tô hai bánh; xe mô tô ba bánh; xe gắn máy; xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng; xe đạp, xe đạp máy, xe đạp điện."
+      },
+      {
+        "id": 2,
+        "content": "Xe ô tô; rơ moóc được kéo bởi xe ô tô; sơ mi rơ moóc được kéo bởi ô tô đầu kéo; xe chở người bốn bánh có gắn động cơ; xe chở hàng bốn bánh có gắn động cơ; xe mô tô, xe g ắn máy và các loại xe tương tự."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 9,
+    "question": "Trong nhóm các phương tiện giao thông đường bộ dưới đây, nhóm phương tiện nào là xe thô sơ?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe đạp, xe đạp máy, xe đạp điện; xe xích lô; xe lăn dùng cho người khuyết tật; xe vật nuôi kéo và các loại xe tương tự."
+      },
+      {
+        "id": 2,
+        "content": "Xe đạp (kể cả xe đạp máy, xe đạp điện), xe gắn máy, xe cơ giới dùng cho người khuyết tật và xe máy chuyên dùng."
+      },
+      {
+        "id": 3,
+        "content": "Xe ô tô, máy kéo, rơ moóc hoặc sơ mi rơ moóc được kéo bởi xe ô tô, máy kéo."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 10,
+    "question": "Phương tiện giao thông đường bộ gồm những loại nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phương tiện giao thông cơ giới đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Phương tiện giao thông thô sơ đường bộ, xe máy chuyên dùng và các loại xe tương tự."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 11,
+    "question": "Người tham gia giao thông đường bộ gồm những đối tượng nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người điều khiển, người được chở trên phương tiện tham gia giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Người điều khiển, dẫn dắt vật nuôi trên đường bộ; người đi bộ trên đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 12,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ gồm những đối tượng nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người điều khiển xe cơ giới, người điều khiển xe thô sơ."
+      },
+      {
+        "id": 2,
+        "content": "Người điều khiển xe máy chuyên dùng."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 13,
+    "question": "Người điều khiển giao thông đường bộ được hiểu như thế nào là đúng?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là người điều khiển phương tiện tham gia giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Là Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông trên đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Là người tham gia giao thông đường bộ."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 14,
+    "question": "Hành vi nào dưới đây bị nghiêm cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ."
+      },
+      {
+        "id": 2,
+        "content": "Rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 15,
+    "question": "Hành vi đưa xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ nào dưới đây bị cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không có chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường."
+      },
+      {
+        "id": 2,
+        "content": "Hết niên hạn sử dụng."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 16,
+    "question": "Tổ chức đua xe được phép thực hiện khi nào? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Trên đường phố không có người qua lại."
+      },
+      {
+        "id": 2,
+        "content": "Được người dân ủng hộ."
+      },
+      {
+        "id": 3,
+        "content": "Được cơ quan có thẩm quyền cấp phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 17,
+    "question": "Hành vi đua xe trái phép bị xử lý như thế nào? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ bị nhắc nhở."
+      },
+      {
+        "id": 2,
+        "content": "Tùy theo mức độ của hành vi vi phạm có thể bị xử lý hành chính hoặc xử lý hình sự."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 18,
+    "question": "Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bi ̣ nghiêm cấm."
+      },
+      {
+        "id": 2,
+        "content": "Không bi ̣ nghiêm cấm."
+      },
+      {
+        "id": 3,
+        "content": "Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 19,
+    "question": "Theo Luật Phòng chống tác hại của rượu, bia, đối tượng nào dưới đây bị cấm sử dụng rượu, bia khi tham gia giao thông? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người điều khiển xe ô tô, xe mô tô, xe đạp, xe gắn máy."
+      },
+      {
+        "id": 2,
+        "content": "Người được chở trên xe cơ giới."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 20,
+    "question": "Hành vi giao xe ô tô, mô tô cho người nào sau đây tham gia giao thông đường bộ bị nghiêm cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người chưa đủ tuổi theo quy định."
+      },
+      {
+        "id": 2,
+        "content": "Người không có giấy phép lái xe."
+      },
+      {
+        "id": 3,
+        "content": "Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 21,
+    "question": "Hành vi nào sau đây bị nghiêm cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Điều khiển xe cơ giới lạng lách, đánh võng, rú ga liên tục khi tham gia giao thông trên đường."
+      },
+      {
+        "id": 2,
+        "content": "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 22,
+    "question": "Các hành vi nào sau đây bị cấm đối với phương tiện tham gia giao thông đường bộ?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cải tạo xe ô tô loại khác thành xe ô tô chở người phục vụ mục đích quốc phòng, an ninh."
+      },
+      {
+        "id": 2,
+        "content": "Cải tạo trái phép; cố ý can thiệp làm sai lệch chỉ số trên đồng hồ báo quãng đường đã chạy của xe ô tô; cắt, hàn, tẩy xóa, đục sửa, đóng lại trái phép số khung, số động cơ của xe cơ giới, xe máy chuyên dùng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 23,
+    "question": "Hành vi nào sau đây bị cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Lắp đặt, sử dụng thiết bị âm thanh, ánh sáng trên xe cơ giới, xe máy chuyên dùng gây mất trật tự, an toàn giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Cản trở người, phương tiện tham gia giao thông trên đường  bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 24,
+    "question": "xe có bị nghiêm cấm hay không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không bị nghiêm cấm."
+      },
+      {
+        "id": 2,
+        "content": "Bị nghiêm cấm."
+      },
+      {
+        "id": 3,
+        "content": "Bị nghiêm cấm tuỳ trường hợp."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 25,
+    "question": "Khi điều khiển phương tiện tham gia giao thông, những hành vi nào dưới đây bị nghiêm cấm?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thay đổi tốc độ của xe nhiều lần."
+      },
+      {
+        "id": 2,
+        "content": "Điều khiển phương tiện sau 23 giờ trong ngày."
+      },
+      {
+        "id": 3,
+        "content": "Lạng lách, đánh võng, rú ga liên tục."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 26,
+    "question": "Có bao nhiêu nhóm biển báo hiệu đường bộ?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Ba nhóm: Biển báo cấm, biển báo nguy hiểm và biển hiệu lệnh."
+      },
+      {
+        "id": 2,
+        "content": "Bốn nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh và biển phụ."
+      },
+      {
+        "id": 3,
+        "content": "Năm nhóm: Biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn, biển phụ."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 27,
+    "question": "Tại nơi có vạch kẻ đường hoặc tại nơi mà người đi bộ, xe lăn của người khuyết tật đang qua đường, người điều khiển phương tiện tham gia giao thông phải thực hiện như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ và nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường đảm bảo an toàn."
+      },
+      {
+        "id": 2,
+        "content": "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho người đi bộ, xe lăn của người khuyết tật qua đường."
+      },
+      {
+        "id": 3,
+        "content": "Quan sát, tăng tốc độ và điều khiển phương tiện nhanh chóng đi qua."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 28,
+    "question": "Người điều khiển xe mô tô phải phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong các trường hợp nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đường hẹp, đường vòng, đường quanh co, đường đèo, dốc."
+      },
+      {
+        "id": 2,
+        "content": "Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Trời mưa, gió, sương, khói, bụi, mặt đường trơn trượt, lầy lội, có nhiều đất đá, vật liệu rơi vãi ảnh hưởng đến an toàn giao thông đường bộ."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 29,
+    "question": "Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người tham gia giao thông đường bộ ở các hướng phải dừng lại."
+      },
+      {
+        "id": 2,
+        "content": "Người tham gia giao thông đường bộ ở các hướng được đi theo chiều gậy chỉ của Cảnh sát giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển được đi tất cả các hướng; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển phải dừng lại."
+      },
+      {
+        "id": 4,
+        "content": "Người tham gia giao thông đường bộ ở phía trước và phía sau người điều khiển phải dừng lại; người tham gia giao thông đường bộ ở phía bên phải và phía bên trái người điều khiển được đi tất cả các hướng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 30,
+    "question": "Khi gặp hiệu lệnh điều khiển của Cảnh sát giao thông như hình dưới đây thì người tham gia giao thông đường bộ phải đi như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Người tham gia giao thông đường bộ ở phía sau Cảnh sát giao thông được đi, các hướng khác phải dừng lại."
+      },
+      {
+        "id": 2,
+        "content": "Người tham gia giao thông đường bộ được rẽ phải theo chiều mũi tên màu xanh ở bục Cảnh sát giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Người tham gia giao thông đường bộ ở tất cả các hướng phải dừng lại, trừ các xe đã ở trong khu vực giao nhau."
+      },
+      {
+        "id": 4,
+        "content": "Người tham gia giao thông đường bộ ở phía trước Cảnh sát giao thông phải dừng lại, các hướng khác được đi."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 31,
+    "question": "Khi hiệu lệnh của người điều khiển giao thông trái với tín hiệu đèn giao thông hoặc biển báo hiệu đường bộ thì người tham gia giao thông đường bộ phải chấp hành báo hiệu đường bộ nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Theo hiệu lệnh của người điều khiển giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Theo tín hiệu đèn giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Theo biển báo hiệu đường bộ."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 32,
+    "question": "Khi ở một vị trí vừa có biển báo hiệu đặt cố định vừa có biển báo hiệu tạm thời mà hai biển có ý nghĩa khác nhau, người tham gia giao thông đường bộ phải chấp hành hiệu lệnh của biển báo hiệu nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển báo hiệu đặt cố định."
+      },
+      {
+        "id": 2,
+        "content": "Biển báo hiệu tạm thời."
+      },
+      {
+        "id": 3,
+        "content": "Theo quyết định của người tham gia giao thông nhưng phải bảo đảm an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 33,
+    "question": "thông có tín hiệu màu vàng, người điều khiển phương tiện tham gia giao thông phải chấp hành như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dừng lại trước vạch dừng; trường hợp đang đi trên vạch dừng hoặc đã đi qua vạch  dừng mà tín hiệu đèn màu vàng thì được đi tiếp; trường hợp tín hiệu đèn màu vàng nhấp nháy, người điều khiển phương tiện tham gia giao thông đường bộ được đi nhưng phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật qua đường hoặc các phương tiện khác."
+      },
+      {
+        "id": 2,
+        "content": "Tăng tốc độ nhanh chóng vượt qua nút giao."
+      },
+      {
+        "id": 3,
+        "content": "Quan sát, giảm tốc độ, từ từ vượt qua nút giao."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 34,
+    "question": "Người lái xe trên đường cần chấp hành quy định về tốc độ tối đa như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ lớn hơn tốc độ tối đa cho phép khi đường vắng."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ lớn hơn tốc độ tối đa cho phép khi vào ban đêm."
+      },
+      {
+        "id": 3,
+        "content": "Không vượt quá tốc độ tối đa cho phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 35,
+    "question": "Phương tiện tham gia giao thông đường bộ di chuyển với tốc độ thấp hơn phải đi như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi về bên trái theo chiều đi của mình."
+      },
+      {
+        "id": 2,
+        "content": "Đi về bên phải theo chiều đi của mình."
+      },
+      {
+        "id": 3,
+        "content": "Đi ở bất cứ bên nào nhưng phải bấm đèn cảnh báo nguy hiểm để báo hiệu cho các phương tiện khác."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 36,
+    "question": "Trên một chiều đường có vạch kẻ phân làn đường, người lái xe cơ giới, xe máy chuyên dùng phải điều khiển xe đi trên làn đường nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi trên làn đường bên phải trong cùng."
+      },
+      {
+        "id": 2,
+        "content": "Đi trên làn đường bên trái."
+      },
+      {
+        "id": 3,
+        "content": "Đi ở bất cứ làn nào nhưng phải bảo đảm tốc độ cho phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 37,
+    "question": "Người lái xe phải giảm tốc độ, có tín hiệu rẽ phải và đi sát về bên phải của phần đường xe chạy trong các trường hợp nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Khi xe chạy phía trước có tín hiệu vượt xe khác."
+      },
+      {
+        "id": 2,
+        "content": "Khi phía trước có xe chạy ngược chiều."
+      },
+      {
+        "id": 3,
+        "content": "Khi xe sau xin vượt nếu đủ điều kiện an toàn."
+      },
+      {
+        "id": 4,
+        "content": "Khi xe sau có tín hiệu vượt bên phải."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 38,
+    "question": "Vượt xe là gì?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là tình huống giao thông trên đường mà mỗi chiều đường xe chạy chỉ có một làn đường dành cho xe cơ giới, xe đi phía sau di chuyển sang bên trái để di chuyển lên trước xe phía trước."
+      },
+      {
+        "id": 2,
+        "content": "Là tình huống giao thông trên đường có từ hai làn đường dành cho xe cơ giới cùng chiều trở lên được phân biệt bằng vạch kẻ đường, xe đi phía sau di chuyển lên trướ c xe phía trước theo quy tắc sử dụng làn đường."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 39,
+    "question": "Người lái xe được phép vượt xe trên cầu hẹp có một làn đường, đường cong có tầm nhìn bị hạn chế hay không? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép vượt khi đường vắng."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép vượt."
+      },
+      {
+        "id": 3,
+        "content": "Được phép vượt khi có việc gấp."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 40,
+    "question": "Muốn vượt xe phía trước, người lái xe mô tô phải có tín hiệu như thế nào dưới đây để bảo đảm an toàn? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bấm còi liên tục để xe phía trước biết xe mình xin vượt."
+      },
+      {
+        "id": 2,
+        "content": "Rú ga liên tục để xe phía trước biết xe mình xin vượt."
+      },
+      {
+        "id": 3,
+        "content": "Báo hiệu nhấp nháy bằng đèn chiếu sáng phía trước hoặc còi."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 41,
+    "question": "Khi lái xe trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh trừ các khu vực có biển cấm sử dụng còi, người lái xe được sử dụng còi trong thời gian nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau."
+      },
+      {
+        "id": 2,
+        "content": "Từ 05 giờ đến 22 giờ."
+      },
+      {
+        "id": 3,
+        "content": "Từ 23 giờ ngày hôm trước đến 05 giờ sáng hôm sau."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 42,
+    "question": "Người lái xe sử dụng đèn như thế nào khi đi trên các đoạn đường qua khu đông dân cư có hệ thống chiếu sáng đang hoạt động?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ bật đèn chiếu xa (đèn pha)."
+      },
+      {
+        "id": 2,
+        "content": "Bật đèn chiếu xa (đèn pha) khi đường vắng, bật đèn chiếu gần (đèn cốt) khi có xe đi ngược chiều."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ bật đèn chiếu gần (đèn cốt)."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 43,
+    "question": "Khi điều khiển phương tiện tham gia giao thông, hành vi nào sau đây bị cấm? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ được chở người trên thùng xe ô tô chở hàng trong trường hợp chở người đi làm nhiệm vụ cứu nạn, cứu hộ, phòng, chống thiên tai, dịch bệnh hoặc thực hiện nhiệm vụ khẩn cấp."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 44,
+    "question": "nào dưới đây? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Trên cầu hẹp có một làn đường; nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; khi gặp xe ưu tiên."
+      },
+      {
+        "id": 2,
+        "content": "Trên cầu có từ 02 làn xe trở lên."
+      },
+      {
+        "id": 3,
+        "content": "Trên đường có 02 làn đường được phân chia làn bằng vạch kẻ nét đứt."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 45,
+    "question": "Nơi nào cấm quay đầu xe?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Ở phần đường dành cho người đi bộ qua đường, trên cầu, đầu cầu, gầm cầu vượt, ngầm."
+      },
+      {
+        "id": 2,
+        "content": "Tại nơi đường bộ giao nhau cùng mức với đường sắt, đường hẹp, đường dốc, đoạn đường cong tầm nhìn bị che khuất, trên đường cao tốc, trong hầm đường bộ, trên đường một chiều."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 46,
+    "question": "làm gì để bảo đảm an toàn giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phải quan sát, bảo đảm khoảng cách an toàn với xe phía sau."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ và có tín hiệu báo hướng rẽ."
+      },
+      {
+        "id": 3,
+        "content": "Chuyển dần sang làn gần nhất với hướng rẽ. Khi bảo đảm an toàn, không gây trở ngại cho người và phương tiện khác mới được chuyển hướng."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 47,
+    "question": "Khi chuyển làn đường, người lái xe phải bật đèn tín hiệu báo rẽ như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Khi bắt đầu chuyển làn đường."
+      },
+      {
+        "id": 2,
+        "content": "Trước khi thay đổi làn đường."
+      },
+      {
+        "id": 3,
+        "content": "Sau khi thay đổi làn đường."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 48,
+    "question": "không được dừng xe, đỗ xe ở những vị trí nào sau đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước."
+      },
+      {
+        "id": 2,
+        "content": "Trong phạm vi an toàn của đường sắt."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 49,
+    "question": "bánh, xe gắn máy có được phép sử dụng xe để kéo hoặc đẩy các phương tiện khác khi tham gia giao thông không? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép."
+      },
+      {
+        "id": 2,
+        "content": "Nếu phương tiện được kéo, đẩy có khối lượng nhỏ hơn phương tiện của mình."
+      },
+      {
+        "id": 3,
+        "content": "Tùy trường hợp."
+      },
+      {
+        "id": 4,
+        "content": "Không được phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 50,
+    "question": "Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào sau đây không được phép? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Buông cả hai tay; đứng, nằm trên xe điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy."
+      },
+      {
+        "id": 2,
+        "content": "Chở tối đa hai người phía sau khi chở người bệnh đi cấp cứu, áp giải người  có hành vi vi phạm pháp luật, trẻ em dưới 12 tuổi và người già yếu hoặc người khuyết tật."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 51,
+    "question": "Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào sau đây không được phép? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe để chở người hoặc hàng hóa; để chân chạm xuống đất khi khởi hành."
+      },
+      {
+        "id": 3,
+        "content": "Đội mũ bảo hiểm; chạy xe đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ."
+      },
+      {
+        "id": 4,
+        "content": "Chở người ngồi sau dưới 16 tuổi."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 52,
+    "question": "Người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông đường bộ không được thực hiện hành vi nào sau đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Mang, vác vật cồng kềnh."
+      },
+      {
+        "id": 2,
+        "content": "Bám, kéo hoặc đẩy các phương tiện khác."
+      },
+      {
+        "id": 3,
+        "content": "Dùng tay cầm điện thoại hoặc các thiết bị điện tử khác."
+      },
+      {
+        "id": 4,
+        "content": "Ý 1 và ý 2."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 53,
+    "question": "Người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông đường bộ có được bám, kéo hoặc đẩy các phương tiện khác không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép."
+      },
+      {
+        "id": 2,
+        "content": "Được bám trong trường hợp phương tiện của mình bị hỏng."
+      },
+      {
+        "id": 3,
+        "content": "Được kéo, đẩy trong trường hợp phương tiện khác bị hỏng."
+      },
+      {
+        "id": 4,
+        "content": "Không được phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 54,
+    "question": "Người lái xe, người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải thực hiện quy định nào dưới đây? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách."
+      },
+      {
+        "id": 2,
+        "content": "Người lái xe phải đội mũ bảo hiểm, người được chở trên xe không nhất thiết phải đội mũ bảo hiểm."
+      },
+      {
+        "id": 3,
+        "content": "Phải đội mũ bảo hiểm nhưng không nhất thiết phải cài quai."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 55,
+    "question": "Người lái xe mô tô hai bánh, xe gắn máy được phép chở tối đa hai người trong những trường hợp nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chở người bệnh đi cấp cứu; áp giải người có hành vi vi phạm pháp luật; trẻ em dưới 12 tuổi; người già yếu hoặc người khuyết tật."
+      },
+      {
+        "id": 2,
+        "content": "Người đã uống rượu, bia; người trong cơ thể có chất ma tuý."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 56,
+    "question": "Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi nào dưới đây? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi xe dàn hàng ngang; buông cả hai tay."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe để kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang, vác và chở vật cồng kềnh; chở người đứng trên xe, giá đèo hàng hoặc ngồi trên tay lái; xếp hàng hóa trên xe quá giới hạn quy định."
+      },
+      {
+        "id": 3,
+        "content": "Ngồi về một bên điều khiển xe; đứng, nằm trên xe điều khiển xe; thay người lái xe khi xe đang chạy; quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 57,
+    "question": "Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi nào sau đây? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi xe dàn hàng ngang; đi xe vào phần đường dành cho người đi bộ và phương tiện khác."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng ô, thiết bị âm thanh, trừ thiết bị trợ thính."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 58,
+    "question": "Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện hành vi nào sau đây? CÂU LIỆT",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi trên phần đường, làn đường quy định, chấp hành hiệu lệnh của người điều khiển giao thông, đèn tín hiệu giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Đi xe dàn hàng ngang, đi xe vào phần đường dành cho người đi bộ."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": true,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 59,
+    "question": "Người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông đường bộ có được sử dụng ô khi trời mưa hay không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được sử dụng."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ người ngồi sau được sử dụng."
+      },
+      {
+        "id": 3,
+        "content": "Không được sử dụng."
+      },
+      {
+        "id": 4,
+        "content": "Được sử dụng nếu không có áo mưa."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 60,
+    "question": "Người được chở trên xe mô tô có được kéo theo người đang điều khiển xe đạp hay không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ được phép nếu cả hai đội mũ bảo hiểm."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ được thực hiện trên đường vắng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 61,
+    "question": "Trường hợp người được chở trên xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy không đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" hoặc không cài quai đúng quy cách (trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật) thì việc xử phạt vi phạm hành chính được quy định như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không bị xử phạt chỉ bị nhắc nhở."
+      },
+      {
+        "id": 2,
+        "content": "Người được chở không bị xử phạt, chỉ xử phạt người điều khiển xe mô tô, xe gắn máy."
+      },
+      {
+        "id": 3,
+        "content": "Người được chở bị xử phạt, không xử phạt người điều khiển xe mô tô, xe gắn máy."
+      },
+      {
+        "id": 4,
+        "content": "Xử phạt cả người điều khiển và người được chở trên xe mô tô, xe gắn máy."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 62,
+    "question": "Trong các trường hợp dưới đây, để bảo đảm an toàn khi tham gia giao thông, người lái xe mô tô cần thực hiện như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phải đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách, không sử dụng ô, điện thoại di động, thiết bị âm thanh (trừ thiết bị trợ thính)."
+      },
+      {
+        "id": 2,
+        "content": "Phải đội mũ bảo hiểm khi trời mưa gió hoặc trời quá nắng; có thể sử dụng ô, điện thoại di động, thiết bị âm thanh nhưng phải bảo đảm an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Phải đội mũ bảo hiểm khi cảm thấy mất an toàn giao thông hoặc khi chuẩn bị di chuyển quãng đường xa."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 63,
+    "question": "Thứ tự xuống phà như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe thô sơ, người đi bộ xuống trước, xe cơ giới, xe máy chuyên dùng xuống sau."
+      },
+      {
+        "id": 2,
+        "content": "Xe cơ giới, xe máy chuyên dùng xuống trước, xe thô sơ, người đi bộ xuống sau."
+      },
+      {
+        "id": 3,
+        "content": "Xe cơ giới, xe thô sơ xuống trước, xe máy chuyên dùng, người đi bộ xuống sau."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 64,
+    "question": "Khi lái xe trong đô thị và khu đông dân cư trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau, nếu cần vượt một xe khác, người lái xe phải báo hiệu như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ được báo hiệu bằng còi."
+      },
+      {
+        "id": 2,
+        "content": "Phải báo hiệu bằng cả còi và đèn."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ được báo hiệu bằng đèn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 65,
+    "question": "Khi điều khiển xe chạy trên đường, biết có xe sau xin vượt, nếu đủ điều kiện an toàn người điều khiển phương tiện phải làm gì?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt."
+      },
+      {
+        "id": 3,
+        "content": "Cho xe đi sát về bên trái của phần đường xe chạy và ra hiệu cho xe sau vượt, không được gây trở ngại cho xe xin vượt."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 66,
+    "question": "riêng biệt, người  điều khiển phương tiện tham gia giao thông đường bộ phải tránh xe đi ngược chiều như thế nào để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ và cho xe đi về bên phải theo chiều xe chạy của mình."
+      },
+      {
+        "id": 2,
+        "content": "Một trong hai xe phải dừng lại cho xe kia đi qua mới được đi."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ, cho xe đi về bên phải theo chiều xe chạy của mình để nhanh chóng vượt qua."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 67,
+    "question": "đường như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nơi đường hẹp chỉ đủ cho một xe chạy và có chỗ tránh xe thì xe nào ở gần chỗ tránh hơn phải vào vị trí tránh, nhường đường cho xe đi ngược chiều."
+      },
+      {
+        "id": 2,
+        "content": "Xe xuống dốc phải nhường đường cho xe lên dốc."
+      },
+      {
+        "id": 3,
+        "content": "Xe có chướng ngại vật phía trước phải nhường đường cho xe không có chướng ngại vật phía trước."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 68,
+    "question": "xe trên đường cong có tầm nhìn bị hạn chế?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn."
+      },
+      {
+        "id": 2,
+        "content": "Đi sang làn đường của xe ngược chiều để mở rộng tầm nhìn và vượt xe khác."
+      },
+      {
+        "id": 3,
+        "content": "Cho xe đi sát bên phải làn đường, bật tín hiệu báo hiệu để vượt bên phải xe khác."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 69,
+    "question": "Tại nơi đường giao nhau, người lái xe đang đi trên đường không ưu tiên, đường nhánh phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nhường đường cho xe đi ở bên phải mình tới."
+      },
+      {
+        "id": 2,
+        "content": "Nhường đường cho xe đi ở bên trái mình tới."
+      },
+      {
+        "id": 3,
+        "content": "Nhường đường cho xe đi trên đường ưu tiên hoặc đường chính từ bất kỳ hướng nào tới."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 70,
+    "question": "xuyến, người lái xe phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nhường đường cho xe đi đến từ bên phải."
+      },
+      {
+        "id": 2,
+        "content": "Nhường đường cho xe đi đến từ bên trái."
+      },
+      {
+        "id": 3,
+        "content": "Không phải nhường đường."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 71,
+    "question": "Tại nơi đường giao nhau không có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào là đúng quy tắc giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phải nhường đường cho xe đi đến từ bên phải."
+      },
+      {
+        "id": 2,
+        "content": "Xe báo hiệu xin đường trước, xe đó được đi trước."
+      },
+      {
+        "id": 3,
+        "content": "Phải nhường đường cho xe đi đến từ bên trái."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 72,
+    "question": "Người lái xe phải nhanh chóng giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường cho các loại xe nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác; xe của lực lượng quân sự, công an và kiểm sát; đoàn xe có xe Cảnh sát giao thông dẫn đường; xe cứu thương; xe hộ đê không có tín hiệu ưu tiên theo quy định."
+      },
+      {
+        "id": 2,
+        "content": "Xe ưu tiên gồm xe chữa cháy của Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ và xe chữa cháy của các lực lượng khác được huy động đi làm nhiệm vụ chữa cháy; xe của lực lượng quân sự, công an và kiểm sát đi làm nhiệm vụ khẩn cấp; đoàn xe có xe Cảnh sát giao thông dẫn đường; xe cứu thương đi làm nhiệm vụ cấp cứu; xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh hoặc xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật; đoàn xe tang."
+      },
+      {
+        "id": 3,
+        "content": "Xe ô tô, xe máy, đoàn xe đang diễu hành có tổ chức có báo tín hiệu xin vượt bằng còi và đèn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 73,
+    "question": "Khi có tín hiệu của xe ưu tiên, người và phương tiện tham gia giao thông đường bộ phải tuân thủ quy định nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường."
+      },
+      {
+        "id": 2,
+        "content": "Tăng tốc độ và đi sát lề đường bên phải để nhường đường."
+      },
+      {
+        "id": 3,
+        "content": "Giảm tốc độ, đi sát lề đường bên trái để nhường đường."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 74,
+    "question": "Khi đang lái xe, phía trước có một xe Cảnh sát giao thông không phát tín hiệu ưu tiên, người lái xe có được phép vượt hay không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được vượt."
+      },
+      {
+        "id": 2,
+        "content": "Được phép vượt ở phần đường dành cho người đi bộ qua đường."
+      },
+      {
+        "id": 3,
+        "content": "Được vượt khi bảo đảm an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 75,
+    "question": "Khi đang lái xe, phía trước có một xe cứu thương đang phát tín hiệu ưu tiên, người lái xe có được phép vượt hay không?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được vượt."
+      },
+      {
+        "id": 2,
+        "content": "Được vượt khi đang đi trên cầu."
+      },
+      {
+        "id": 3,
+        "content": "Được phép vượt khi đi qua nơi giao nhau có ít phương tiện cùng tham gia giao thông."
+      },
+      {
+        "id": 4,
+        "content": "Được vượt khi bảo đảm an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 76,
+    "question": "đường bộ, chuông, đèn  tín hiệu, người tham gia giao thông đường bộ phải làm gì để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dừng lại về bên phải đường của mình, trước vạch dừng xe và quan sát hai phía, khi không có phương tiện giao thông đường sắt tới mới được đi qua."
+      },
+      {
+        "id": 2,
+        "content": "Quan sát hai phía, khi không có phương tiện giao thông đường sắt tới thì nhanh chóng đi qua."
+      },
+      {
+        "id": 3,
+        "content": "Dừng lại khoảng cách tối thiểu 3 mét tính từ ray đường sắt gần nhất, khi không có phương tiện giao thông đường sắt tới thì nhanh chóng đi qua."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 77,
+    "question": "Tại đường ngang, cầu chung đường sắt, khi có hiệu lệnh của nhân viên gác chắn, đèn đỏ sáng nhấp nháy, chuông kêu, chắn đường bộ đang dịch chuyển hoặc đã đóng, người tham gia giao thông đường bộ phải làm gì để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dừng lại về bên trái đường của mình, trước vạch dừng xe."
+      },
+      {
+        "id": 2,
+        "content": "Dừng lại giữa đường của mình, trước vạch dừng xe."
+      },
+      {
+        "id": 3,
+        "content": "Dừng lại về bên phải đường của mình, trước vạch dừng xe."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 78,
+    "question": "về bên phải đường của mình trước vạch dừng xe tại đường ngang, cầu chung đường sắt khi có báo hiệu nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hiệu lệnh của nhân viên gác chắn."
+      },
+      {
+        "id": 2,
+        "content": "Đèn đỏ sáng nhấp nháy, chuông kêu."
+      },
+      {
+        "id": 3,
+        "content": "Chắn đường bộ đang dịch chuyển hoặc đã đóng."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 79,
+    "question": "trong hầm đường  bộ ngoài việc phải tuân thủ các quy tắc giao thông còn phải thực hiện những quy định nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu gần; xe thô sơ phải bật đèn hoặc có vật phát sáng báo hiệu; không dừng xe, đỗ xe trong hầm đường bộ; trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe, người lái xe, người điều khiển xe máy chuyên dùng  phải đưa xe vào vị trí dừng xe, đỗ xe khẩn cấp, nếu không di chuyển được, phải có báo hiệu bằng đèn khẩn cấp và đặt biển hoặc đèn cảnh báo về phía sau xe khoảng cách bảo đảm an toàn."
+      },
+      {
+        "id": 2,
+        "content": "Xe cơ giới, xe máy chuyên dùng phải bật đèn chiếu xa; được dừng xe, đỗ xe khi cần thiết."
+      },
+      {
+        "id": 3,
+        "content": "Phải cho xe chạy trên một làn đường và chỉ chuyển làn ở nơi được phép; được quay đầu xe, lùi xe khi cần thiết."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 80,
+    "question": "Người điều khiển phương tiện  tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong các trường hợp nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có báo hiệu cảnh báo nguy hiểm hoặc có chướng ngại vật trên đường; chuyển hướng xe chạy hoặc tầm nhìn bị hạn chế."
+      },
+      {
+        "id": 2,
+        "content": "Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ; có vật nuôi đi trên đường hoặc chăn thả ở ven đường."
+      },
+      {
+        "id": 3,
+        "content": "Điểm dừng xe, đỗ xe trên đường bộ có khách đang lên, xuống xe."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 81,
+    "question": "Người lái xe được phép vượt xe khác về bên phải trong trường hợp nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe phía trước có tín hiệu rẽ trái hoặc đang rẽ trái hoặc khi xe chuyên dùng đang làm việc trên đường mà không thể vượt bên trái."
+      },
+      {
+        "id": 2,
+        "content": "Xe phía trước đang đi sát lề đường bên trái."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 82,
+    "question": "nào nếu đủ điều kiện an toàn cho xe phía sau vượt?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ, có tín hiệu rẽ phải để báo hiệu cho người điều khiển phương tiện tham gia giao thông đường bộ phía sau biết được vượt và đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua, không được cản trở đối với xe xin vượt."
+      },
+      {
+        "id": 2,
+        "content": "Lái xe vào lề đường bên trái và giảm tốc độ để xe phía sau vượt qua, không được gây trở ngại đối với xe xin vượt."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ, đi sát về bên phải của phần đường xe chạy cho đến khi xe sau đã vượt qua."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 83,
+    "question": "đường cao tốc, trừ người, phương tiện giao thông đường bộ và thiết bị phục vụ việc quản lý, bảo trì đường cao tốc?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu quy định đối với đường cao tốc, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô, xe gắn máy, xe thô sơ, người đi bộ."
+      },
+      {
+        "id": 2,
+        "content": "Xe máy chuyên dùng có tốc độ thiết kế lớn hơn tốc độ tối thiểu quy định đối với đường cao tốc."
+      },
+      {
+        "id": 3,
+        "content": "Xe ô tô và xe máy chuyên dùng có tốc độ thiết kế lớn hơn 80 km/h."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 84,
+    "question": "Theo quy định về độ tuổi, người đủ  bao nhiêu tuổi trở lên thì được cấp giấy phép lái xe mô tô hai bánh có dung tích xi lanh đến 125 cm3 và xe ô tô chở người đến 8 chỗ (không kể chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "16 tuổi."
+      },
+      {
+        "id": 2,
+        "content": "17 tuổi"
+      },
+      {
+        "id": 3,
+        "content": "18 tuổi."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 85,
+    "question": "khiển các loại xe nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3."
+      },
+      {
+        "id": 2,
+        "content": "Xe gắn máy."
+      },
+      {
+        "id": 3,
+        "content": "Xe ô tô chở người đến 08 chỗ (không kể  chỗ của người lái xe); xe ô tô tải và ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg; các loại xe ô tô quy định cho giấy phép lái xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế đến 750 kg."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 86,
+    "question": "được phép điều khiển loại xe nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe mô tô hai bánh có dung tích xi-lanh 125 cm3 hoặc có công suất động cơ điện đến 11 kW."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô ba bánh."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 87,
+    "question": "cấp sau ngày 01/01/2025 được phép điều khiển loại xe nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô ba bánh."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 88,
+    "question": "điều khiển loại xe nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô hai bánh có dung tích xi-lanh trên 125 cm3 hoặc có công suất động cơ điện trên 11 kW."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 89,
+    "question": "Người lái xe khi tham gia giao thông đường bộ phải đảm bảo các điều kiện nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phải đủ tuổi, sức khỏe theo quy định của pháp luật; có giấy phép lái xe đang còn điểm, còn hiệu lực phù hợp với loại xe đang điều khiển do cơ quan có thẩm quyền cấp (trừ người lái xe gắn máy)."
+      },
+      {
+        "id": 2,
+        "content": "Phải là người đứng tên trong đăng ký xe."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 90,
+    "question": "mang theo các giấy tờ gì?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chứng nhận đăng ký xe hoặc bản sao Chứng nhận đăng ký xe có chứng thực kèm bản gốc giấy tờ xác nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài còn hiệu lực trong trường hợp xe đang được thế chấp tại tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+      },
+      {
+        "id": 2,
+        "content": "Giấy phép lái xe phù hợp với loại xe đang điều khiển; chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới theo quy định của pháp luật; chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới."
+      },
+      {
+        "id": 3,
+        "content": "Trường hợp các giấy tờ nêu trên đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 91,
+    "question": "được phục hồi điểm giấy phép lái xe trong trường hợp nào sau đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được phục hồi."
+      },
+      {
+        "id": 2,
+        "content": "Được phục hồi đủ 12 điểm, nếu không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 92,
+    "question": "làm gì để phục hồi điểm giấy phép lái xe?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không vi phạm pháp luật trật tự, an toàn giao thông đường bộ trong thời gian 12 tháng kể từ ngày bị trừ hết điểm."
+      },
+      {
+        "id": 2,
+        "content": "Sau thời hạn ít nhất là 06 tháng kể từ ngày bị trừ hết điểm, người có phép lái xe được tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ theo quy định, có kết quả đạt yêu cầu thì được phục hồi đủ 12 điểm."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 93,
+    "question": "Trách nhiệm của tổ chức, cá nhân đứng tên trong giấy chứng nhận đăng ký xe khi chưa thực hiện thu hồi chứng nhận đăng ký xe, biển số xe được quy định như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tiếp tục chịu trách nhiệm của chủ xe."
+      },
+      {
+        "id": 2,
+        "content": "Không chịu trách nhiệm sau khi đã chuyển nhượng, trao đổi, tặng, cho."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 94,
+    "question": "Trên đường bộ, trong khu vực đông dân cư, đường đôi hoặc đường một chiều có từ hai làn xe cơ giới trở lên, xe mô tô hai bánh, ô tô chở người đến  28 chỗ không kể chỗ của người lái xe tham gia giao thông với tốc độ khai thác tối đa cho phép là bao nhiêu?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "60 km/h."
+      },
+      {
+        "id": 2,
+        "content": "50 km/h."
+      },
+      {
+        "id": 3,
+        "content": "40 km/h."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 95,
+    "question": "Trên đường bộ (trừ đường cao tốc) trong khu vực đông dân cư, đường hai chiều hoặc đường một chiều có một làn xe cơ giới, xe mô tô hai bánh,  ô tô chở người đến 28 chỗ không kể chỗ của người lái xe tham gia giao thông với tốc độ khai thác tối đa cho phép là bao nhiêu?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "60 km/h."
+      },
+      {
+        "id": 2,
+        "content": "50 km/h."
+      },
+      {
+        "id": 3,
+        "content": "40 km/h."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 96,
+    "question": "Trên đường bộ ngoài khu vực đông dân cư, đường đôi hoặc đường một chiều có từ hai làn xe cơ giới trở lên (trừ đường cao tốc) loại xe nào dưới đây được tham gia giao thông với tốc độ khai thác tối đa cho phép là 70 km/h?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe ô tô chở người đến 28 chỗ không kể chỗ của người lái xe (trừ xe buýt); ô tô tải có trọng tải không lớn hơn 3,5 tấn."
+      },
+      {
+        "id": 2,
+        "content": "Xe ô tô chở người trên 28 chỗ không kể chỗ người lái xe (trừ xe buýt); ô tô tải có trọng tải trên 3,5 tấn (trừ ô tô xi téc)."
+      },
+      {
+        "id": 3,
+        "content": "Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động)."
+      },
+      {
+        "id": 4,
+        "content": "Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 97,
+    "question": "Trên đường bộ ngoài khu vực đông dân cư, đường hai chiều hoặc đường một chiều có một làn xe cơ giới (trừ đường cao tốc), loại xe nào dưới đây được tham gia giao thông với tốc độ khai thác tối đa cho phép là 60 km/h?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe ô tô chở người đến 28 chỗ không kể chỗ của người lái xe (trừ xe buýt); ô tô tải có trọng tải không lớn hơn 3,5 tấn."
+      },
+      {
+        "id": 2,
+        "content": "Xe ô tô chở người trên 28 chỗ không kể chỗ người lái xe (trừ xe buýt); ô tô tải có trọng tải trên 3,5 tấn (trừ ô tô xi téc)."
+      },
+      {
+        "id": 3,
+        "content": "Xe buýt; ô tô đầu kéo kéo sơ mi rơ moóc (trừ ô tô đầu kéo kéo sơ mi rơ moóc xi téc); xe mô tô; ô tô chuyên dùng (trừ ô tô trộn vữa, ô tô trộn bê tông lưu động)."
+      },
+      {
+        "id": 4,
+        "content": "Ô tô kéo rơ moóc; ô tô kéo xe khác; ô tô trộn vữa, ô tô trộn bê tông lưu động, ô tô xi téc, ô tô đầu kéo kéo sơ mi rơ moóc xi téc, ô tô kéo theo rơ moóc xi téc."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 98,
+    "question": "Người lái xe phải giảm tốc độ thấp hơn tốc độ tối đa cho phép đến mức cần thiết, chú ý quan sát và chuẩn bị sẵn sàng những tình huống có thể xảy ra để phòng ngừa tai nạn trong các trường hợp nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Gặp biển báo nguy hiểm và cảnh báo trên đường."
+      },
+      {
+        "id": 2,
+        "content": "Gặp biển chỉ dẫn trên đường."
+      },
+      {
+        "id": 3,
+        "content": "Gặp biển báo hết mọi lệnh cấm."
+      },
+      {
+        "id": 4,
+        "content": "Gặp biển báo hết hạn chế tốc độ tối đa cho phép."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 99,
+    "question": "Khi gặp xe buýt đang dừng đón, trả khách, người điều khiển xe mô tô phải xử lý như thế nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ để nhanh chóng vượt qua xe buýt."
+      },
+      {
+        "id": 2,
+        "content": "Quan sát, giảm tốc độ đi qua xe buýt hoặc dừng lại để bảo đảm an toàn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 100,
+    "question": "Việc sử dụng xe mô tô, xe gắn máy, xe thô sơ để vận chuyển hành khách, hàng hóa phải thực hiện các quy định nào dưới đây để đảm bảo an toàn giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Kiểm tra điều kiện bảo đảm an toàn của xe trước khi tham gia giao thông đường bộ; mang đủ giấy tờ theo quy định của pháp luật."
+      },
+      {
+        "id": 2,
+        "content": "Kiểm tra việc sắp xếp hàng hóa bảo đảm an toàn; không chở quá số người, chở hành lý, hàng hoá vượt quá khối lượng cho phép hoặc vượt quá khổ giới hạn của xe."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Quy định chung và quy tắc giao thông đường bộ"
+  },
+  {
+    "id": 101,
+    "question": "hóa giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Luôn tuân thủ pháp luật về trật tự, an toàn giao thông đường bộ, nhường nhịn và giúp đỡ người khác."
+      },
+      {
+        "id": 2,
+        "content": "Đi nhanh, vượt đèn đỏ nếu không có lực lượng Công an."
+      },
+      {
+        "id": 3,
+        "content": "Bấm còi và nháy đèn liên tục để cảnh báo xe khác."
+      },
+      {
+        "id": 4,
+        "content": "Tránh nhường đường để đi nhanh hơn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 102,
+    "question": "nào là đúng?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là sự hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông, là ý thức trách nhiệm với cộng đồng khi tham gia giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Là sự tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa giữa những người tham gia giao thông với nhau."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 103,
+    "question": "đường quy định, phóng nhanh, vượt ẩu, vượt đèn đỏ, đi vào đường cấm được coi là hành vi nào trong các hành vi dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là thiếu văn hóa giao thông, vi phạm pháp luật về trật tự, an toàn giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Là thiếu văn hóa giao thông."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 104,
+    "question": "giao thông đường bộ phải đáp ứng các điều kiện nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông đường bộ; có ý thức trách nhiệm với cộng đồng khi tham gia giao thông; tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa với những người cùng tham gia giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Điều khiển xe vượt quá tốc độ, đi không đúng làn đường."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 105,
+    "question": "Người lái xe mô tô có văn hóa giao thông khi tham gia giao thông phải tuân thủ những quy định nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy chuẩn kỹ thuật quốc gia, cài quai đúng quy cách."
+      },
+      {
+        "id": 2,
+        "content": "Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 106,
+    "question": "hóa giao thông phải ứng xử như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; dừng, đỗ xe đúng nơi quy định; đã uống rượu, bia thì không lái xe."
+      },
+      {
+        "id": 2,
+        "content": "Điều khiển xe đi trên phần đường, làn đường có ít phương tiện giao thông; dừng xe, đỗ xe ở nơi thuận tiện hoặc theo yêu cầu của hành khách, của người thân."
+      },
+      {
+        "id": 3,
+        "content": "Dừng và đỗ xe ở nơi thuận tiện cho việc chuyên chở hành khách và giao nhận hàng hóa; sử dụng ít rượu, bia thì có thể lái xe."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 107,
+    "question": "Khi tham gia giao thông việc sử dụng còi xe nên dùng như thế nào để thể hiện là người có văn hóa giao thông?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ bấm còi khi thật sự cần thiết, không bấm còi liên tục hoặc kéo dài, sử dụng còi với mức âm lượng theo quy định."
+      },
+      {
+        "id": 2,
+        "content": "Bấm còi liên tục để các xe khác nhường đường."
+      },
+      {
+        "id": 3,
+        "content": "Bấm còi to khi đi qua khu vực đông dân cư."
+      },
+      {
+        "id": 4,
+        "content": "Không cần dùng còi, tránh gây tiếng ồn là văn minh."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 108,
+    "question": "Người điều khiển phương tiện tham giao thông đường bộ gây ra tai nạn giao thông đường bộ, người liên quan đến vụ tai nạn giao thông đường bộ có trách nhiệm gì dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dừng ngay phương tiện, cảnh báo nguy hiểm, giữ nguyên hiện trường, trợ giúp người bị nạn và báo tin cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh."
+      },
+      {
+        "id": 2,
+        "content": "Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất."
+      },
+      {
+        "id": 3,
+        "content": "Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 109,
+    "question": "Người có mặt tại nơi xảy ra vụ tai giao thông đường bộ có trách nhiệm gì dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giúp đỡ, cứu chữa kịp thời người bị nạn; báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất; tham gia bảo vệ hiện trường; tham gia bảo vệ tài sản của người bị nạn; cung cấp thông tin liên quan về vụ tai nạn theo yêu cầu của cơ quan có thẩm quyền."
+      },
+      {
+        "id": 2,
+        "content": "Chụp lại hình ảnh vụ tai nạn (nếu có thiết bị ghi hình) và nhanh chóng rời khỏi hiện trường vụ tai nạn."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 110,
+    "question": "Trong đoạn đường hai chiều tại khu đông dân cư đang ùn tắc, người điều khiển xe mô tô có văn hóa giao thông sẽ lựa chọn cách xử lý tình huống nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cho xe lấn sang làn ngược chiều để nhanh chóng thoát khỏi nơi ùn tắc."
+      },
+      {
+        "id": 2,
+        "content": "Điều khiển xe trên vỉa hè để nhanh chóng thoát khỏi nơi ùn tắc."
+      },
+      {
+        "id": 3,
+        "content": "Kiên nhẫn tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu đèn giao thông, di chuyển trên đúng phần đường bên phải theo chiều đi, nhường đường cho các phương tiện đi ngược chiều."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 111,
+    "question": "Khi điều khiển xe mô tô tay ga xu ống đường dốc dài, độ dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ."
+      },
+      {
+        "id": 2,
+        "content": "Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ."
+      },
+      {
+        "id": 3,
+        "content": "Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 112,
+    "question": "Khi điều khiển xe trên đường vòng người lái xe cần phải làm gì để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng coi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng."
+      },
+      {
+        "id": 2,
+        "content": "Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 113,
+    "question": "Khi điều khiển xe qua đường sắt, người lái xe cần phải thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Khi có chuông báo hoặc thanh chắn đã hạ xuống, người lái xe phải dừng xe tạm thời đúng khoảng cách an toàn,  kéo phanh tay nếu đường dốc hoặc phải chờ lâu."
+      },
+      {
+        "id": 2,
+        "content": "Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe cần phải quan sát nếu thấy đủ điều kiện an toàn thì về số thấp, tăng ga nhẹ và không thay đổi số trong quá trình vượt qua đường sắt để tránh động cơ chết máy cho xe cho vượt qua."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 114,
+    "question": "",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xăng và dầu diesel."
+      },
+      {
+        "id": 2,
+        "content": "Xăng sinh học và khí sinh học."
+      },
+      {
+        "id": 3,
+        "content": "Ý 1 và ý 2."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 115,
+    "question": "Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 116,
+    "question": "to, người lái xe phải thực hiện các thao tác nào để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ, chạy gần xe trước, nhìn đèn hậu để định hướng."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ, bật đèn pha vượt qua xe chạy trước."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 117,
+    "question": "giảm khả năng quan sát trên đường, người lái xe xử lý như thế nào dưới đây để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ, giữ vững tay lái, nhìn chếch sang lề đường bên phải."
+      },
+      {
+        "id": 2,
+        "content": "Bật đèn pha chiếu xa và giữ nguyên tốc độ."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ, bật đèn pha đối diện xe phía trước."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 118,
+    "question": "Để đạt được hiệu quả phanh cao nhất, người lái xe mô tô phải sử dụng các kỹ năng như thế nào dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Sử dụng phanh trước."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng phanh sau."
+      },
+      {
+        "id": 3,
+        "content": "Giảm hết ga, sử dụng đồng thời cả phanh sau và phanh trước."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 119,
+    "question": "Khi đang lái xe mô tô  hoặc ô tô, nếu có nhu cầu sử dụng điện thoại để nhắn tin hoặc gọi điện, người lái xe phải thực hiện như thế nào trong các tình huống nêu dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giảm tốc độ để bảo đảm an toàn với xe phía trước và sử dụng điện thoại để liên lạc."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ để dừng xe ở nơi cho phép sau đó sử dụng điện thoại để liên lạc."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 120,
+    "question": "Những thói quen nào dưới đây khi điều khiển xe mô tô tay ga tham gia giao thông dễ gây tai nạn nguy hiểm?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Sử dụng còi."
+      },
+      {
+        "id": 2,
+        "content": "Phanh đồng thời cả phanh trước và phanh sau."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ sử dụng phanh trước."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 121,
+    "question": "thực hiện như thế nào để bảo đảm an toàn?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bật tín hiệu báo rẽ trước khi quay đầu, từ từ giảm tốc độ đến mức có thể dừng lại."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ quay đầu xe tại những nơi được phép quay đầu."
+      },
+      {
+        "id": 3,
+        "content": "Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đồng thời nhường đường cho xe từ bên phải và phía trước đi tới."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 122,
+    "question": "đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để điều khiển xe chạy về phía trước."
+      },
+      {
+        "id": 2,
+        "content": "Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe."
+      },
+      {
+        "id": 3,
+        "content": "Để điều khiển xe chạy lùi."
+      },
+      {
+        "id": 4,
+        "content": "Ý 1 và ý 2."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 123,
+    "question": "gì dưới đây?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái."
+      },
+      {
+        "id": 2,
+        "content": "Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải."
+      },
+      {
+        "id": 3,
+        "content": "Để quan sát an toàn phía sau của bên trái và bên phải trước khi chuyển hướng."
+      },
+      {
+        "id": 4,
+        "content": "Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 124,
+    "question": "lái xe mô tô hai bánh cần điều khiển tay ga như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng ga thật mạnh, giảm ga từ từ."
+      },
+      {
+        "id": 2,
+        "content": "Tăng ga thật mạnh, giảm ga thật nhanh."
+      },
+      {
+        "id": 3,
+        "content": "Tăng ga từ từ, giảm ga thật nhanh."
+      },
+      {
+        "id": 4,
+        "content": "Tăng ga từ từ, giảm ga từ từ."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 125,
+    "question": "ở nơi đường xấu, nhỏ và hẹp, người lái xe cần xử lý như thế nào?",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi ở tốc độ thấp, quan sát liên tục khoảng cách từ 05 m đến 10 m phía trước để điều chỉnh sớm hướng di chuyển."
+      },
+      {
+        "id": 2,
+        "content": "Trong quá trình di chuyển không nên dùng phanh trước tránh làm khóa bánh dẫn hướng."
+      },
+      {
+        "id": 3,
+        "content": "Không được lắc người sang trái hoặc phải nhiều, trọng tâm cơ thể cần trùng với trọng tâm của xe."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba ý trên."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "",
+    "topic": "Kỹ thuật lái xe"
+  },
+  {
+    "id": 126,
+    "question": "Nội dung câu hỏi số 126 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q126.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 127,
+    "question": "Nội dung câu hỏi số 127 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q127.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 128,
+    "question": "Nội dung câu hỏi số 128 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q128.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 129,
+    "question": "Nội dung câu hỏi số 129 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q129.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 130,
+    "question": "Nội dung câu hỏi số 130 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q130.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 131,
+    "question": "Nội dung câu hỏi số 131 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q131.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 132,
+    "question": "Nội dung câu hỏi số 132 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q132.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 133,
+    "question": "Nội dung câu hỏi số 133 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q133.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 134,
+    "question": "Nội dung câu hỏi số 134 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q134.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 135,
+    "question": "Nội dung câu hỏi số 135 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q135.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 136,
+    "question": "Nội dung câu hỏi số 136 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q136.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 137,
+    "question": "Nội dung câu hỏi số 137 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q137.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 138,
+    "question": "Nội dung câu hỏi số 138 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q138.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 139,
+    "question": "Nội dung câu hỏi số 139 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q139.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 140,
+    "question": "Nội dung câu hỏi số 140 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q140.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 141,
+    "question": "Nội dung câu hỏi số 141 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q141.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 142,
+    "question": "Nội dung câu hỏi số 142 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q142.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 143,
+    "question": "Nội dung câu hỏi số 143 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q143.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 144,
+    "question": "Nội dung câu hỏi số 144 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q144.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 145,
+    "question": "Nội dung câu hỏi số 145 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q145.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 146,
+    "question": "Nội dung câu hỏi số 146 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q146.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 147,
+    "question": "Nội dung câu hỏi số 147 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q147.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 148,
+    "question": "Nội dung câu hỏi số 148 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q148.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 149,
+    "question": "Nội dung câu hỏi số 149 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q149.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 150,
+    "question": "Nội dung câu hỏi số 150 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q150.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 151,
+    "question": "Nội dung câu hỏi số 151 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q151.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 152,
+    "question": "Nội dung câu hỏi số 152 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q152.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 153,
+    "question": "Nội dung câu hỏi số 153 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q153.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 154,
+    "question": "Nội dung câu hỏi số 154 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q154.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 155,
+    "question": "Nội dung câu hỏi số 155 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q155.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 156,
+    "question": "Nội dung câu hỏi số 156 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q156.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 157,
+    "question": "Nội dung câu hỏi số 157 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q157.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 158,
+    "question": "Nội dung câu hỏi số 158 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q158.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 159,
+    "question": "Nội dung câu hỏi số 159 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q159.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 160,
+    "question": "Nội dung câu hỏi số 160 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q160.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 161,
+    "question": "Nội dung câu hỏi số 161 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q161.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 162,
+    "question": "Nội dung câu hỏi số 162 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q162.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 163,
+    "question": "Nội dung câu hỏi số 163 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q163.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 164,
+    "question": "Nội dung câu hỏi số 164 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q164.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 165,
+    "question": "Nội dung câu hỏi số 165 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q165.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 166,
+    "question": "Nội dung câu hỏi số 166 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q166.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 167,
+    "question": "Nội dung câu hỏi số 167 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q167.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 168,
+    "question": "Nội dung câu hỏi số 168 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q168.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 169,
+    "question": "Nội dung câu hỏi số 169 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q169.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 170,
+    "question": "Nội dung câu hỏi số 170 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q170.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 171,
+    "question": "Nội dung câu hỏi số 171 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q171.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 172,
+    "question": "Nội dung câu hỏi số 172 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q172.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 173,
+    "question": "Nội dung câu hỏi số 173 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q173.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 174,
+    "question": "Nội dung câu hỏi số 174 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q174.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 175,
+    "question": "Nội dung câu hỏi số 175 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q175.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 176,
+    "question": "Nội dung câu hỏi số 176 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q176.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 177,
+    "question": "Nội dung câu hỏi số 177 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q177.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 178,
+    "question": "Nội dung câu hỏi số 178 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q178.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 179,
+    "question": "Nội dung câu hỏi số 179 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q179.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 180,
+    "question": "Nội dung câu hỏi số 180 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q180.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 181,
+    "question": "Nội dung câu hỏi số 181 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q181.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 182,
+    "question": "Nội dung câu hỏi số 182 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q182.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 183,
+    "question": "Nội dung câu hỏi số 183 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q183.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 184,
+    "question": "Nội dung câu hỏi số 184 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q184.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 185,
+    "question": "Nội dung câu hỏi số 185 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q185.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 186,
+    "question": "Nội dung câu hỏi số 186 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q186.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 187,
+    "question": "Nội dung câu hỏi số 187 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q187.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 188,
+    "question": "Nội dung câu hỏi số 188 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q188.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 189,
+    "question": "Nội dung câu hỏi số 189 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q189.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 190,
+    "question": "Nội dung câu hỏi số 190 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q190.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 191,
+    "question": "Nội dung câu hỏi số 191 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q191.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 192,
+    "question": "Nội dung câu hỏi số 192 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q192.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 193,
+    "question": "Nội dung câu hỏi số 193 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q193.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 194,
+    "question": "Nội dung câu hỏi số 194 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q194.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 195,
+    "question": "Nội dung câu hỏi số 195 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q195.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 196,
+    "question": "Nội dung câu hỏi số 196 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q196.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 197,
+    "question": "Nội dung câu hỏi số 197 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q197.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 198,
+    "question": "Nội dung câu hỏi số 198 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q198.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 199,
+    "question": "Nội dung câu hỏi số 199 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q199.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 200,
+    "question": "Nội dung câu hỏi số 200 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q200.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 201,
+    "question": "Nội dung câu hỏi số 201 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q201.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 202,
+    "question": "Nội dung câu hỏi số 202 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q202.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 203,
+    "question": "Nội dung câu hỏi số 203 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q203.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 204,
+    "question": "Nội dung câu hỏi số 204 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q204.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 205,
+    "question": "Nội dung câu hỏi số 205 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q205.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 206,
+    "question": "Nội dung câu hỏi số 206 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q206.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 207,
+    "question": "Nội dung câu hỏi số 207 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q207.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 208,
+    "question": "Nội dung câu hỏi số 208 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q208.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 209,
+    "question": "Nội dung câu hỏi số 209 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q209.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 210,
+    "question": "Nội dung câu hỏi số 210 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q210.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 211,
+    "question": "Nội dung câu hỏi số 211 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q211.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 212,
+    "question": "Nội dung câu hỏi số 212 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q212.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 213,
+    "question": "Nội dung câu hỏi số 213 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q213.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 214,
+    "question": "Nội dung câu hỏi số 214 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q214.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 215,
+    "question": "Nội dung câu hỏi số 215 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q215.png",
+    "topic": "Biển báo đường bộ"
+  },
+  {
+    "id": 216,
+    "question": "Nội dung câu hỏi số 216 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q216.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 217,
+    "question": "Nội dung câu hỏi số 217 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q217.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 218,
+    "question": "Nội dung câu hỏi số 218 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q218.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 219,
+    "question": "Nội dung câu hỏi số 219 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q219.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 220,
+    "question": "Nội dung câu hỏi số 220 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q220.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 221,
+    "question": "Nội dung câu hỏi số 221 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q221.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 222,
+    "question": "Nội dung câu hỏi số 222 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q222.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 223,
+    "question": "Nội dung câu hỏi số 223 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q223.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 224,
+    "question": "Nội dung câu hỏi số 224 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q224.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 225,
+    "question": "Nội dung câu hỏi số 225 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q225.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 226,
+    "question": "Nội dung câu hỏi số 226 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q226.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 227,
+    "question": "Nội dung câu hỏi số 227 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q227.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 228,
+    "question": "Nội dung câu hỏi số 228 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q228.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 229,
+    "question": "Nội dung câu hỏi số 230 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q229.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 230,
+    "question": "Nội dung câu hỏi số 231 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q230.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 231,
+    "question": "Nội dung câu hỏi số 232 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q231.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 232,
+    "question": "Nội dung câu hỏi số 233 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q232.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 233,
+    "question": "Nội dung câu hỏi số 234 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q233.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 234,
+    "question": "Nội dung câu hỏi số 235 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q234.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 235,
+    "question": "Nội dung câu hỏi số 236 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q235.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 236,
+    "question": "Nội dung câu hỏi số 237 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q236.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 237,
+    "question": "Nội dung câu hỏi số 238 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q237.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 238,
+    "question": "Nội dung câu hỏi số 239 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q238.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 239,
+    "question": "Nội dung câu hỏi số 240 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q239.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 240,
+    "question": "Nội dung câu hỏi số 241 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q240.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 241,
+    "question": "Nội dung câu hỏi số 242 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q241.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 242,
+    "question": "Nội dung câu hỏi số 243 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q242.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 243,
+    "question": "Nội dung câu hỏi số 244 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q243.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 244,
+    "question": "Nội dung câu hỏi số 245 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q244.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 245,
+    "question": "Nội dung câu hỏi số 246 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q245.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 246,
+    "question": "Nội dung câu hỏi số 247 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q246.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 247,
+    "question": "Nội dung câu hỏi số 248 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q247.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 248,
+    "question": "Nội dung câu hỏi số 249 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q248.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
+  },
+  {
+    "id": 249,
+    "question": "Nội dung câu hỏi số 250 trong bộ đề 250 câu sát hạch lái xe mô tô A1 - A.",
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đáp án thứ nhất đúng theo quy định pháp luật giao thông đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Đáp án thứ hai tuân thủ các quy tắc bảo đảm an toàn khi tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2 đều đúng."
+      }
+    ],
+    "correctAnswer": 1,
+    "isCritical": false,
+    "imageUrl": "assets/images/questions/q249.png",
+    "topic": "Giải thế sa hình và kỹ năng xử lý tình huống"
   }
 ]

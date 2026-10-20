@@ -1,35 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'providers/auth_provider.dart';
-import 'providers/exam_provider.dart';
 import 'providers/question_provider.dart';
-import 'screens/exam_result_screen.dart';
-import 'screens/exam_screen.dart';
-import 'screens/favorite_screen.dart';
-import 'screens/history_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/learning_screen.dart';
+import 'providers/exam_provider.dart';
 import 'screens/login_screen.dart';
-import 'screens/profile_screen.dart';
 import 'screens/register_screen.dart';
-import 'screens/splash_screen.dart';
-import 'screens/traffic_sign_screen.dart';
-import 'services/firebase_service.dart';
-import 'utils/app_colors.dart';
-import 'utils/app_constants.dart';
+import 'screens/home_screen.dart';
+import 'screens/learning_screen.dart';     // Màn hình học lý thuyết
+import 'screens/exam_screen.dart';// Màn hình thi thử
+import 'screens/exam_result_screen.dart';        // Màn hình thi thử
+import 'screens/traffic_sign_screen.dart';// Màn hình biển báo (tên file là traffic_sign_screen)
+import 'screens/favorite_screen.dart';     // Màn hình yêu thích / câu sai (tên file là favorite_screen)
+import 'screens/history_screen.dart';      // Màn hình lịch sử / tiến độ
+import 'screens/profile_screen.dart';      // Màn hình cá nhân
 import 'utils/app_routes.dart';
-
-Future<void> main() async {
+import 'screens/sa_hinh_screen.dart';
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Khởi tạo Firebase (tự động fallback về chế độ Local nếu chưa cấu hình)
-  await FirebaseService.init();
-
-  runApp(const MotoLearnApp());
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(const MyApp());
 }
 
-class MotoLearnApp extends StatelessWidget {
-  const MotoLearnApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -40,22 +37,26 @@ class MotoLearnApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => ExamProvider()),
       ],
       child: MaterialApp(
-        title: AppConstants.appName,
+        title: 'MotoLearn - Ôn Thi GPLX A1-A4',
         debugShowCheckedModeBanner: false,
-        theme: AppColors.theme,
-        initialRoute: AppRoutes.splash,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          useMaterial3: true,
+        ),
+        initialRoute: AppRoutes.login,
+        // Khai báo đầy đủ các routes để chuyển trang không bị lỗi
         routes: {
-          AppRoutes.splash: (_) => const SplashScreen(),
-          AppRoutes.login: (_) => const LoginScreen(),
-          AppRoutes.register: (_) => const RegisterScreen(),
-          AppRoutes.home: (_) => const HomeScreen(),
-          AppRoutes.learning: (_) => const LearningScreen(),
-          AppRoutes.trafficSigns: (_) => const TrafficSignScreen(),
-          AppRoutes.exam: (_) => const ExamScreen(),
-          AppRoutes.examResult: (_) => const ExamResultScreen(),
-          AppRoutes.favorites: (_) => const FavoriteScreen(),
-          AppRoutes.history: (_) => const HistoryScreen(),
-          AppRoutes.profile: (_) => const ProfileScreen(),
+          AppRoutes.login: (context) => const LoginScreen(),
+          AppRoutes.register: (context) => const RegisterScreen(),
+          AppRoutes.home: (context) => const HomeScreen(),
+          AppRoutes.learning: (context) => const LearningScreen(),
+          AppRoutes.exam: (context) => const ExamScreen(),
+          AppRoutes.examResult: (context) => const ExamResultScreen(),
+          AppRoutes.trafficSigns: (context) => const TrafficSignScreen(),
+          AppRoutes.favorites: (context) => const FavoriteScreen(),
+          AppRoutes.history: (context) => const HistoryScreen(),
+          AppRoutes.profile: (context) => const ProfileScreen(),
+          AppRoutes.saHinh: (context) => const SaHinhScreen(),
         },
       ),
     );

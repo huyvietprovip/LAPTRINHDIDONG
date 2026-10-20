@@ -127,17 +127,7 @@ class HomeScreen extends StatelessWidget {
                         crossAxisSpacing: 12,
                         childAspectRatio: 2.05,
                         children: [
-                          _FigmaMenuCard(
-                            title: 'Học lý thuyết',
-                            subtitle: '$topicCount chủ đề',
-                            icon: Icons.menu_book_rounded,
-                            iconColor: const Color(0xFF2563EB),
-                            bgColor: const Color(0xFFEFF6FF),
-                            onTap: () => Navigator.pushNamed(
-                              context,
-                              AppRoutes.learning,
-                            ),
-                          ),
+                          
                           _FigmaMenuCard(
                             title: 'Ôn tập ${totalQuestions > 0 ? totalQuestions : 600} câu',
                             subtitle: 'Đã học $learnedCount câu',
@@ -172,16 +162,16 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                           _FigmaMenuCard(
-                            title: 'Học sa hình',
-                            subtitle: 'Tình huống thực tế',
-                            icon: Icons.two_wheeler_rounded,
-                            iconColor: const Color(0xFF8B5CF6),
-                            bgColor: const Color(0xFFF5F3FF),
-                            onTap: () => Navigator.pushNamed(
-                              context,
-                              AppRoutes.learning,
-                            ),
-                          ),
+  title: 'Học sa hình',
+  subtitle: 'Tình huống thực tế',
+  icon: Icons.two_wheeler_rounded,
+  iconColor: const Color(0xFF8B5CF6),
+  bgColor: const Color(0xFFF5F3FF),
+  onTap: () => Navigator.pushNamed(
+    context,
+    AppRoutes.saHinh, // <--- Sửa thành AppRoutes.saHinh
+  ),
+),
                           _FigmaMenuCard(
                             title: 'Yêu thích & Mẹo',
                             subtitle:

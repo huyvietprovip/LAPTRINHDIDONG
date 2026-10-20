@@ -5,9 +5,10 @@ class QuestionModel {
   final int id; // Mã câu hỏi
   final String content; // Nội dung câu hỏi
   final List<AnswerModel> answers; // Danh sách đáp án
-  final String topicId; // Mã chủ đề (khớp với TopicModel.id)
+  final String topicId; // Mã chủ đề
+  final int correctAnswer; // ID của đáp án đúng (khớp với JSON mới)
   final String explanation; // Giải thích đáp án đúng
-  final String? imagePath; // Đường dẫn hình minh họa trong assets (có thể không có)
+  final String? imagePath; // Đường dẫn hình minh họa
   final bool isCritical; // Câu điểm liệt: sai là trượt
 
   const QuestionModel({
@@ -15,14 +16,14 @@ class QuestionModel {
     required this.content,
     required this.answers,
     required this.topicId,
-    required this.explanation,
+    required this.correctAnswer,
+    this.explanation = '',
     this.imagePath,
     this.isCritical = false,
   });
 
   /// Mã (id) của đáp án đúng.
-  int get correctAnswerId =>
-      answers.firstWhere((a) => a.isCorrect).id;
+  int get correctAnswerId => correctAnswer;
 
   /// Kiểm tra đáp án người dùng chọn có đúng không.
   bool isCorrectAnswer(int answerId) => answerId == correctAnswerId;
@@ -30,13 +31,17 @@ class QuestionModel {
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
     return QuestionModel(
       id: map['id'] as int,
-      content: map['content'] as String,
+      // Hỗ trợ cả trường 'question' (từ JSON mới) lẫn 'content'
+      content: (map['question'] ?? map['content']) as String? ?? '',
       answers: (map['answers'] as List<dynamic>)
           .map((e) => AnswerModel.fromMap(Map<String, dynamic>.from(e as Map)))
           .toList(),
-      topicId: map['topicId'] as String,
+      // Hỗ trợ cả 'topic' lẫn 'topicId'
+      topicId: (map['topic'] ?? map['topicId']) as String? ?? 'Quy định chung',
+      correctAnswer: map['correctAnswer'] as int? ?? 1,
       explanation: map['explanation'] as String? ?? '',
-      imagePath: map['imagePath'] as String?,
+      // Hỗ trợ cả 'imageUrl' lẫn 'imagePath'
+      imagePath: (map['imageUrl'] ?? map['imagePath']) as String?,
       isCritical: map['isCritical'] as bool? ?? false,
     );
   }
@@ -44,11 +49,12 @@ class QuestionModel {
   Map<String, dynamic> toMap() {
     return {
       'id': id,
-      'content': content,
+      'question': content,
       'answers': answers.map((a) => a.toMap()).toList(),
-      'topicId': topicId,
+      'topic': topicId,
+      'correctAnswer': correctAnswer,
       'explanation': explanation,
-      'imagePath': imagePath,
+      'imageUrl': imagePath,
       'isCritical': isCritical,
     };
   }

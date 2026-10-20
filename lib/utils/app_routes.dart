@@ -13,4 +13,5 @@ class AppRoutes {
   static const String favorites = '/favorites';
   static const String history = '/history';
   static const String profile = '/profile';
+  static const String saHinh = '/sa-hinh';
 }

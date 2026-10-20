@@ -46,6 +46,7 @@ class _ExamScreenState extends State<ExamScreen> {
     final unanswered =
         exam.examQuestions.length - exam.selectedAnswers.length;
 
+    // Hiển thị hộp thoại xác nhận nộp bài (Đã sửa lỗi cú pháp chuỗi $unanswered)
     final bool? confirmed = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
@@ -82,14 +83,20 @@ class _ExamScreenState extends State<ExamScreen> {
     final exam = context.read<ExamProvider>();
     final questionProvider = context.read<QuestionProvider>();
 
-    await exam.submitExam(uid: uid);
-    await questionProvider.recordExamWrongs(
-      exam.examQuestions,
-      exam.selectedAnswers,
-      uid: uid,
-    );
+    try {
+      await exam.submitExam(uid: uid);
+      await questionProvider.recordExamWrongs(
+        exam.examQuestions,
+        exam.selectedAnswers,
+        uid: uid,
+      );
+    } catch (e) {
+      debugPrint('Lỗi nộp bài thi: $e');
+    }
 
     if (!mounted) return;
+
+    // Chuyển hướng sang màn hình kết quả thi
     Navigator.pushReplacementNamed(context, AppRoutes.examResult);
   }
 
@@ -104,6 +111,8 @@ class _ExamScreenState extends State<ExamScreen> {
         body: const Center(child: Text('Không có dữ liệu câu hỏi để tạo đề.')),
       );
     }
+
+    final bool isLastQuestion = exam.currentIndex >= exam.examQuestions.length - 1;
 
     return Scaffold(
       appBar: AppBar(
@@ -154,12 +163,12 @@ class _ExamScreenState extends State<ExamScreen> {
                       color: isCurrent
                           ? AppColors.primary
                           : isAnswered
-                              ? AppColors.primary.withValues(alpha: 0.15)
+                              ? AppColors.primary.withOpacity(0.15)
                               : Colors.grey.shade200,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
-                      '${index + 1}',
+                      '${index + 1}', // Đã sửa lỗi cú pháp chuỗi
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: isCurrent
@@ -190,7 +199,7 @@ class _ExamScreenState extends State<ExamScreen> {
             ),
           ),
 
-          // Nút chuyển câu
+          // Nút chuyển câu / nộp bài
           Container(
             padding: const EdgeInsets.all(16),
             color: AppColors.surface,
@@ -201,22 +210,21 @@ class _ExamScreenState extends State<ExamScreen> {
                     label: 'Câu trước',
                     icon: Icons.arrow_back,
                     isOutlined: true,
-                    onPressed:
-                        exam.currentIndex > 0 ? exam.previousQuestion : null,
+                    onPressed: exam.currentIndex > 0 ? exam.previousQuestion : null,
                   ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
                   child: CustomButton(
-                    label: exam.currentIndex < exam.examQuestions.length - 1
-                        ? 'Câu tiếp'
-                        : 'Nộp bài',
-                    icon: exam.currentIndex < exam.examQuestions.length - 1
-                        ? Icons.arrow_forward
-                        : Icons.check_circle_outline,
-                    onPressed: exam.currentIndex < exam.examQuestions.length - 1
-                        ? exam.nextQuestion
-                        : _confirmAndSubmit,
+                    label: isLastQuestion ? 'Nộp bài' : 'Câu tiếp',
+                    icon: isLastQuestion ? Icons.check_circle_outline : Icons.arrow_forward,
+                    onPressed: () {
+                      if (!isLastQuestion) {
+                        exam.nextQuestion();
+                      } else {
+                        _confirmAndSubmit();
+                      }
+                    },
                   ),
                 ),
               ],

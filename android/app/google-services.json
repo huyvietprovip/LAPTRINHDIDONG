@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965096005679",
+    "project_id": "onthigplx-1d202",
+    "storage_bucket": "onthigplx-1d202.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965096005679:android:b266963b535908eacc26da",
+        "android_client_info": {
+          "package_name": "com.example.vs_gplx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZB9zmqXhm8ikItVLJwbpSQRIVlIA1V74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
