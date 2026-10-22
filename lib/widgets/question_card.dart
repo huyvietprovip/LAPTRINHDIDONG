@@ -115,7 +115,8 @@ class QuestionCard extends StatelessWidget {
   }
 
   Widget _buildAnswer(answer) {
-    final bool isSelected = selectedAnswerId == answer.id;
+    // Ép kiểu sang String để so sánh an toàn tuyệt đối, tránh lệch kiểu int/String
+    final bool isSelected = selectedAnswerId?.toString() == answer.id?.toString();
 
     Color borderColor = Colors.grey.shade300;
     Color fillColor = Colors.white;

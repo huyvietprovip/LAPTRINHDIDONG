@@ -9,19 +9,31 @@ import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/learning_screen.dart';     // Màn hình học lý thuyết
-import 'screens/exam_screen.dart';// Màn hình thi thử
-import 'screens/exam_result_screen.dart';        // Màn hình thi thử
-import 'screens/traffic_sign_screen.dart';// Màn hình biển báo (tên file là traffic_sign_screen)
-import 'screens/favorite_screen.dart';     // Màn hình yêu thích / câu sai (tên file là favorite_screen)
+import 'screens/exam_screen.dart';         // Màn hình thi thử
+import 'screens/exam_result_screen.dart';    // Màn hình kết quả thi
+import 'screens/traffic_sign_screen.dart'; // Màn hình biển báo
+import 'screens/favorite_screen.dart';     // Màn hình yêu thích / câu sai
 import 'screens/history_screen.dart';      // Màn hình lịch sử / tiến độ
 import 'screens/profile_screen.dart';      // Màn hình cá nhân
+import 'screens/sa_hinh_screen.dart';      // Màn hình học sa hình
 import 'utils/app_routes.dart';
-import 'screens/sa_hinh_screen.dart';
+//import 'services/database_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  //try {
+  //await DatabaseService().syncQuestionsToFirestore();
+  
+ 
+ //await DatabaseService().syncTrafficSignsToFirestore(); 
+
+  //debugPrint('🚀 Đã đẩy toàn bộ câu hỏi và biển báo lên Firestore thành công!');
+//} catch (e) {
+  //debugPrint('❌ Lỗi đồng bộ: $e');
+//}
+
   runApp(const MyApp());
 }
 

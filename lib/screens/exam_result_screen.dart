@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import '../providers/exam_provider.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_routes.dart';
-
 /// Màn hình hiển thị kết quả thi thử lý thuyết GPLX.
 class ExamResultScreen extends StatelessWidget {
   const ExamResultScreen({super.key});

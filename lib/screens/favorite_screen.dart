@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
 import '../models/question_model.dart';
 import '../providers/auth_provider.dart';
 import '../providers/question_provider.dart';
@@ -33,8 +34,11 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
           title: const Text('Ôn tập câu hỏi'),
           bottom: TabBar(
             indicatorColor: AppColors.accent,
-            labelColor: Colors.white,
-            unselectedLabelColor: Colors.white70,
+            // 🔍 Đổi màu chữ cho rõ nét:
+            labelColor: AppColors.primary, // Hoặc Colors.black / Colors.white tùy theo màu nền AppBar của bác
+            unselectedLabelColor:
+                AppColors.textSecondary, // Màu chữ mờ cho tab không chọn
+            labelStyle: const TextStyle(fontWeight: FontWeight.bold),
             tabs: [
               Tab(text: 'Yêu thích (${favoriteList.length})'),
               Tab(text: 'Câu hay sai (${wrongList.length})'),

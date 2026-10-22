@@ -1,7 +1,121 @@
 [
-  { "id": "P.102", "name": "Cấm đi ngược chiều", "group": "Biển cấm", "meaning": "Cấm các loại xe đi vào theo chiều biển đặt.", "imagePath": "assets/images/signs/p102.png" },
-  { "id": "P.104", "name": "Cấm xe máy", "group": "Biển cấm", "meaning": "Cấm xe máy đi vào đoạn đường có đặt biển.", "imagePath": "assets/images/signs/p104.png" },
-  { "id": "P.131", "name": "Cấm đỗ xe", "group": "Biển cấm", "meaning": "Cấm đỗ xe trên đoạn đường có đặt biển.", "imagePath": "assets/images/signs/p131.png" },
-  { "id": "W.201a", "name": "Chỗ ngoặt nguy hiểm vòng bên trái", "group": "Biển nguy hiểm", "meaning": "Báo trước đoạn đường có chỗ ngoặt nguy hiểm vòng bên trái.", "imagePath": "assets/images/signs/w201a.png" },
-  { "id": "R.301a", "name": "Hướng đi phải theo (đi thẳng)", "group": "Biển hiệu lệnh", "meaning": "Các xe chỉ được đi thẳng.", "imagePath": "assets/images/signs/r301a.png" }
+  {
+    "id": "P.126",
+    "name": "Biển cấm máy kéo",
+    "group": "Biển cấm",
+    "meaning": "Cấm máy kéo đi vào đường có đặt biển báo này.",
+    "imagePath": "assets/images/signs/p126.png"
+  },
+  {
+    "id": "P.127",
+    "name": "Biển cấm xe theo quy định của biển",
+    "group": "Biển cấm",
+    "meaning": "Cấm các loại xe thuộc đối tượng quy định trên biển đi vào.",
+    "imagePath": "assets/images/signs/p127.png"
+  },
+  {
+    "id": "P.128",
+    "name": "Biển cấm xe gắn máy",
+    "group": "Biển cấm",
+    "meaning": "Xác định biển báo mà xe gắn máy được phép đi vào theo quy định.",
+    "imagePath": "assets/images/signs/p128.png"
+  },
+  {
+    "id": "P.129",
+    "name": "Biển cấm xe mô tô",
+    "group": "Biển cấm",
+    "meaning": "Cấm xe mô tô đi vào đường có đặt biển báo này.",
+    "imagePath": "assets/images/signs/p129.png"
+  },
+  {
+    "id": "P.130",
+    "name": "Biển quy định đường đi của xe mô tô",
+    "group": "Biển cấm",
+    "meaning": "Nhận biết các biển mà xe mô tô hai bánh được phép đi vào.",
+    "imagePath": "assets/images/signs/p130.png"
+  },
+  {
+    "id": "P.131",
+    "name": "Biển cấm quay đầu xe",
+    "group": "Biển cấm",
+    "meaning": "Cấm phương tiện quay đầu tại đoạn đường có hiệu lực của biển.",
+    "imagePath": "assets/images/signs/p131.png"
+  },
+  {
+    "id": "P.132",
+    "name": "Biển cấm rẽ trái",
+    "group": "Biển cấm",
+    "meaning": "Cấm phương tiện rẽ trái theo hướng bị hạn chế trên biển.",
+    "imagePath": "assets/images/signs/p132.png"
+  },
+  {
+    "id": "P.133",
+    "name": "Biển quy định hướng rẽ trái",
+    "group": "Biển cấm",
+    "meaning": "Nhận biết biển cho phép phương tiện rẽ trái theo hướng được chỉ dẫn.",
+    "imagePath": "assets/images/signs/p133.png"
+  },
+  {
+    "id": "P.134",
+    "name": "Biển cấm rẽ phải",
+    "group": "Biển cấm",
+    "meaning": "Cấm các phương tiện rẽ phải theo quy định của biển báo.",
+    "imagePath": "assets/images/signs/p134.png"
+  },
+  {
+    "id": "P.135",
+    "name": "Biển cấm rẽ trái",
+    "group": "Biển cấm",
+    "meaning": "Cấm các phương tiện rẽ trái theo quy định của biển báo.",
+    "imagePath": "assets/images/signs/p135.png"
+  },
+  {
+    "id": "P.136",
+    "name": "Biển chỉ hướng rẽ trái",
+    "group": "Biển hiệu lệnh",
+    "meaning": "Nhận biết biển quy định hướng đi sang trái của phương tiện.",
+    "imagePath": "assets/images/signs/p136.png"
+  },
+  {
+    "id": "P.137",
+    "name": "Biển quy định quay đầu xe",
+    "group": "Biển cấm",
+    "meaning": "Phân biệt biển cấm quay đầu và biển không cấm quay đầu xe.",
+    "imagePath": "assets/images/signs/p137.png"
+  },
+  {
+    "id": "P.138",
+    "name": "Biển cho phép quay đầu, cấm rẽ trái",
+    "group": "Biển cấm",
+    "meaning": "Phân biệt hướng quay đầu được phép với hướng rẽ trái bị cấm.",
+    "imagePath": "assets/images/signs/p138.png"
+  },
+  {
+    "id": "P.139",
+    "name": "Biển cấm đi ngược chiều",
+    "group": "Biển cấm",
+    "meaning": "Cấm các phương tiện đi vào đường theo chiều đặt biển.",
+    "imagePath": "assets/images/signs/p139.png"
+  },
+  {
+    "id": "P.140",
+    "name": "Biển cấm các phương tiện đi vào",
+    "group": "Biển cấm",
+    "meaning": "Cấm các phương tiện thuộc phạm vi quy định đi vào đường có đặt biển.",
+    "imagePath": "assets/images/signs/p140.png"
+  },
+  {
+    "id": "P.159",
+    "name": "Biển báo giao nhau nguy hiểm",
+    "group": "Biển nguy hiểm",
+    "meaning": "Cảnh báo người điều khiển phương tiện sắp đến vị trí giao nhau nguy hiểm để chủ động giảm tốc độ và chú ý quan sát.",
+    "imagePath": "assets/images/signs/p159.png"
+  },
+  {
+    "id": "P.136A",
+    "name": "Biển hiệu lệnh hướng đi phải theo",
+    "group": "Biển hiệu lệnh",
+    "meaning": "Yêu cầu người điều khiển phương tiện đi theo hướng mũi tên được quy định trên biển.",
+    "imagePath": "assets/images/signs/p136a.png"
+  }
 ]

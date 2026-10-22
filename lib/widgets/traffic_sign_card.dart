@@ -24,11 +24,26 @@ class TrafficSignCard extends StatelessWidget {
               child: Image.asset(
                 sign.imagePath,
                 fit: BoxFit.contain,
-                errorBuilder: (_, __, ___) => const Icon(
-                  Icons.traffic,
-                  size: 48,
-                  color: AppColors.textSecondary,
-                ),
+                errorBuilder: (context, error, stackTrace) {
+                  // In chi tiết lỗi ra console và hiển thị trực tiếp lên app để debug
+                  debugPrint('❌ LỖI LOAD ẢNH [Path: ${sign.imagePath}]: $error');
+                  return Container(
+                    padding: const EdgeInsets.all(4),
+                    decoration: BoxDecoration(
+                      color: Colors.red.withValues(alpha: 0.1),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Sai path:\n${sign.imagePath}',
+                        style: const TextStyle(color: Colors.red, fontSize: 8),
+                        textAlign: TextAlign.center,
+                        maxLines: 4,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  );
+                },
               ),
             ),
             const SizedBox(width: 12),
@@ -58,4 +73,4 @@ class TrafficSignCard extends StatelessWidget {
       ),
     );
   }
-}     
+}

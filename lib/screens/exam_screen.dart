@@ -8,7 +8,6 @@ import '../utils/app_routes.dart';
 import '../utils/formatters.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/question_card.dart';
-
 /// Màn hình làm bài Thi thử lý thuyết.
 class ExamScreen extends StatefulWidget {
   const ExamScreen({super.key});

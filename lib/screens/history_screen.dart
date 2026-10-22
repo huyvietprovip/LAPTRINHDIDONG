@@ -6,7 +6,6 @@ import '../utils/app_colors.dart';
 import '../utils/app_routes.dart';
 import '../widgets/exam_result_card.dart';
 import '../widgets/progress_card.dart';
-
 /// Màn hình Lịch sử thi thử và Thống kê tiến độ học tập.
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});

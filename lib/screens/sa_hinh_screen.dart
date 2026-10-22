@@ -6,7 +6,7 @@ import '../utils/app_colors.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/question_card.dart';
 
-/// Màn hình học và ôn tập các câu hỏi về Sa hình.
+/// Màn hình học và ôn tập các câu hỏi về Sa hình (Từ câu 216 đến hết).
 class SaHinhScreen extends StatefulWidget {
   const SaHinhScreen({super.key});
 
@@ -23,23 +23,12 @@ class _SaHinhScreenState extends State<SaHinhScreen> {
     final questionProvider = context.watch<QuestionProvider>();
     final uid = context.read<AuthProvider>().user?.uid;
 
-    // Lọc danh sách câu hỏi sa hình an toàn tuyệt đối, tránh lỗi thuộc tính
-    // Lọc chuẩn xác các câu hỏi sa hình từ câu 216 trở đi hoặc theo ID chủ đề/từ khóa sa hình
-    List saHinhQuestions = questionProvider.questions.where((q) {
-      final text = q.content.toLowerCase();
-      final expl = q.explanation?.toLowerCase() ?? '';
-      
-      // Kiểm tra nếu có chứa từ khóa sa hình / ngã tư / vạch kẻ / thứ tự xe hoặc thuộc topic sa hình
-      return text.contains('sa hình') || 
-             expl.contains('sa hình') || 
-             text.contains('xe nào đi trước') || 
-             text.contains('thứ tự các xe');
-    }).toList();
-
-    // Nếu bộ lọc trên quét không ra, ta dùng khoảng index từ câu 215 (hoặc theo ID)
-    if (saHinhQuestions.isEmpty && questionProvider.questions.length > 215) {
-      saHinhQuestions = questionProvider.questions.sublist(215);
-    } else if (saHinhQuestions.isEmpty) {
+    // Lấy chính xác các câu hỏi sa hình từ câu 216 trở đi (index 215 đến hết)
+    List saHinhQuestions = [];
+    if (questionProvider.questions.length > 215) {
+      saHinhQuestions = questionProvider.questions.skip(215).toList();
+    } else {
+      // Fallback nếu tổng số câu ít hơn 216
       saHinhQuestions = questionProvider.questions;
     }
 
@@ -47,7 +36,7 @@ class _SaHinhScreenState extends State<SaHinhScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Học Sa Hình'),
+        title: const Text('Học Sa Hình (Từ câu 216)'),
         backgroundColor: AppColors.primary,
         foregroundColor: Colors.white,
       ),
@@ -70,7 +59,7 @@ class _SaHinhScreenState extends State<SaHinhScreen> {
 
                         return QuestionCard(
                           question: question,
-                          questionNumber: safeIndex + 1,
+                          questionNumber: 216 + safeIndex, // Hiển thị số câu đúng chuẩn từ 216
                           selectedAnswerId: selectedAnswer,
                           showResult: selectedAnswer != null,
                           isFavorite: questionProvider.isFavorite(question.id),

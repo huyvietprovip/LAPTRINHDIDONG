@@ -29,18 +29,30 @@ class QuestionModel {
   bool isCorrectAnswer(int answerId) => answerId == correctAnswerId;
 
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
+    final int correctAnswerId = map['correctAnswer'] as int? ?? 1;
+
+    final rawAnswers = (map['answers'] as List<dynamic>?);
+    List<AnswerModel> parsedAnswers = [];
+
+    if (rawAnswers != null) {
+      parsedAnswers = rawAnswers.map((e) {
+        final answerMap = Map<String, dynamic>.from(e as Map);
+        final int ansId = answerMap['id'] as int? ?? 0;
+        
+        // Tự động gán isCorrect = true nếu id của đáp án khớp với correctAnswer của câu hỏi
+        answerMap['isCorrect'] = (ansId == correctAnswerId);
+        
+        return AnswerModel.fromMap(answerMap);
+      }).toList();
+    }
+
     return QuestionModel(
-      id: map['id'] as int,
-      // Hỗ trợ cả trường 'question' (từ JSON mới) lẫn 'content'
+      id: map['id'] as int? ?? 0,
       content: (map['question'] ?? map['content']) as String? ?? '',
-      answers: (map['answers'] as List<dynamic>)
-          .map((e) => AnswerModel.fromMap(Map<String, dynamic>.from(e as Map)))
-          .toList(),
-      // Hỗ trợ cả 'topic' lẫn 'topicId'
+      answers: parsedAnswers,
       topicId: (map['topic'] ?? map['topicId']) as String? ?? 'Quy định chung',
-      correctAnswer: map['correctAnswer'] as int? ?? 1,
+      correctAnswer: correctAnswerId,
       explanation: map['explanation'] as String? ?? '',
-      // Hỗ trợ cả 'imageUrl' lẫn 'imagePath'
       imagePath: (map['imageUrl'] ?? map['imagePath']) as String?,
       isCritical: map['isCritical'] as bool? ?? false,
     );

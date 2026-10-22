@@ -11,13 +11,16 @@ class QuestionRepo {
   QuestionRepo({DatabaseService? dbService})
       : _dbService = dbService ?? DatabaseService();
 
+  // Đổi sang gọi loadQuestions để ưu tiên lấy từ Cloud Firestore
   Future<List<QuestionModel>> getQuestions() =>
-      _dbService.loadQuestionsFromAssets();
+      _dbService.loadQuestions();
 
   Future<List<TopicModel>> getTopics() => _dbService.loadTopicsFromAssets();
 
-  Future<List<TrafficSignModel>> getTrafficSigns() =>
-      _dbService.loadTrafficSignsFromAssets();
+  Future<List<TrafficSignModel>> getTrafficSigns() async {
+  // Gọi trực tiếp DatabaseService để ưu tiên lấy từ Firestore collection 'traffic_signs'
+  return await DatabaseService().loadTrafficSigns();
+}
 
   Future<Set<int>> getFavoriteIds({String? uid}) =>
       _dbService.getIntSet(AppConstants.favoritesCollection, uid: uid);
