@@ -8,7 +8,6 @@ import '../utils/formatters.dart';
 import '../utils/validators.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/custom_text_field.dart';
-import '../services/database_service.dart';
 /// Màn hình Hồ sơ cá nhân.
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -26,7 +25,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     super.initState();
     final user = context.read<AuthProvider>().user;
     _nameCtrl = TextEditingController(text: user?.displayName ?? '');
-    DatabaseService().syncQuestionsToFirestore();
+    //DatabaseService().syncQuestionsToFirestore();
   }
 
   @override

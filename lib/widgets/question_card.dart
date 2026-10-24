@@ -44,10 +44,10 @@ class QuestionCard extends StatelessWidget {
                 color: AppColors.textPrimary,
               ),
             ),
-            if (question.imagePath != null) ...[
-              const SizedBox(height: 12),
-              _buildImage(question.imagePath!),
-            ],
+            if (question.imagePath != null && question.imagePath!.trim().isNotEmpty) ...[
+  const SizedBox(height: 12),
+  _buildImage(question.imagePath!),
+],
             const SizedBox(height: 12),
             ...question.answers.map(_buildAnswer),
             if (showResult && question.explanation.isNotEmpty) _buildExplanation(),

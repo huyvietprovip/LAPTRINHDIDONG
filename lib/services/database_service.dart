@@ -12,7 +12,7 @@ import 'package:flutter/foundation.dart';
 
 /// Dịch vụ đọc dữ liệu JSON từ assets và lưu trữ dữ liệu người dùng.
 class DatabaseService {
-  // ===== ĐỌC & ĐỒNG BỘ CÂU HỎI =====
+  // ===== ĐỌC CÂU HỎI =====
 
   Future<List<QuestionModel>> loadQuestionsFromAssets() async {
     final raw = await rootBundle.loadString(AppConstants.questionsAsset);
@@ -40,25 +40,7 @@ class DatabaseService {
     return loadQuestionsFromAssets();
   }
 
-  /// Đồng bộ toàn bộ câu hỏi từ file JSON lên Cloud Firestore
-  Future<void> syncQuestionsToFirestore() async {
-    try {
-      final raw = await rootBundle.loadString(AppConstants.questionsAsset);
-      final list = jsonDecode(raw) as List<dynamic>;
-      final firestore = FirebaseFirestore.instance;
-
-      for (var item in list) {
-        final mapItem = Map<String, dynamic>.from(item as Map);
-        final int id = mapItem['id'];
-        await firestore.collection('questions').doc(id.toString()).set(mapItem);
-      }
-      debugPrint('🎉 Đồng bộ thành công toàn bộ ${list.length} câu hỏi lên Cloud Firestore!');
-    } catch (e) {
-      debugPrint('❌ Lỗi đồng bộ câu hỏi lên Firestore: $e');
-    }
-  }
-
-  // ===== ĐỌC & ĐỒNG BỘ BIỂN BÁO =====
+  // ===== ĐỌC BIỂN BÁO =====
 
   Future<List<TopicModel>> loadTopicsFromAssets() async {
     final raw = await rootBundle.loadString(AppConstants.topicsAsset);
@@ -93,25 +75,7 @@ class DatabaseService {
     return loadTrafficSignsFromAssets();
   }
 
-  /// Đồng bộ toàn bộ biển báo từ file JSON lên Cloud Firestore
-  Future<void> syncTrafficSignsToFirestore() async {
-    try {
-      final raw = await rootBundle.loadString(AppConstants.signsAsset);
-      final list = jsonDecode(raw) as List<dynamic>;
-      final firestore = FirebaseFirestore.instance;
-
-      for (var item in list) {
-        final mapItem = Map<String, dynamic>.from(item as Map);
-        final String id = mapItem['id'].toString(); // Dùng mã biển (VD: P.126) làm Document ID
-        await firestore.collection('traffic_signs').doc(id).set(mapItem);
-      }
-      debugPrint('🎉 Đồng bộ thành công toàn bộ ${list.length} biển báo lên Cloud Firestore!');
-    } catch (e) {
-      debugPrint('❌ Lỗi đồng bộ biển báo lên Firestore: $e');
-    }
-  }
-
-  // ===== CÁC HÀM LƯU & ĐỌC KHÁC GIỮ NGUYÊN =====
+  // ===== CÁC HÀM LƯU & ĐỌC TIẾN TRÌNH, LỊCH SỬ THI =====
   Future<Set<int>> getIntSet(String key, {String? uid}) async {
     final prefs = await SharedPreferences.getInstance();
     final localList = prefs.getStringList(key) ?? [];

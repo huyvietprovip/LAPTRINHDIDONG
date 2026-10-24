@@ -55,6 +55,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '965096005679',
     projectId: 'onthigplx-1d202',
     authDomain: 'onthigplx-1d202.firebaseapp.com',
+    databaseURL: 'https://onthigplx-1d202-default-rtdb.firebaseio.com',
     storageBucket: 'onthigplx-1d202.firebasestorage.app',
     measurementId: 'G-C40PELHD57',
   );
@@ -64,6 +65,7 @@ class DefaultFirebaseOptions {
     appId: '1:965096005679:android:b266963b535908eacc26da',
     messagingSenderId: '965096005679',
     projectId: 'onthigplx-1d202',
+    databaseURL: 'https://onthigplx-1d202-default-rtdb.firebaseio.com',
     storageBucket: 'onthigplx-1d202.firebasestorage.app',
   );
 }
