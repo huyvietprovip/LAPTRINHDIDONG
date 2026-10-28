@@ -27,11 +27,11 @@ class _SplashScreenState extends State<SplashScreen> {
     final questionProvider = context.read<QuestionProvider>();
     final examProvider = context.read<ExamProvider>();
 
-    // 1. Kiểm tra trạng thái đăng nhập
+    // 1. Kiểm tra trạng thái đăng nhập trước
     await authProvider.checkAuthState();
     final uid = authProvider.user?.uid;
 
-    // 2. Tải dữ liệu cần thiết
+    // 2. Tải toàn bộ dữ liệu ứng dụng dựa vào uid (nếu có)
     await Future.wait([
       questionProvider.loadAllData(uid: uid),
       examProvider.loadHistory(uid: uid),
@@ -39,12 +39,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
     if (!mounted) return;
 
-    // 3. Kiểm tra xem người dùng đã đăng nhập hay chưa để điều hướng
-    if (authProvider.user != null) {
-      // Đã đăng nhập -> Chuyển đến Trang chủ
+    // 3. Điều hướng dựa trên trạng thái đăng nhập
+    if (authProvider.isLoggedIn) {
       Navigator.pushReplacementNamed(context, AppRoutes.home);
     } else {
-      // Chưa đăng nhập -> Chuyển đến màn hình Đăng nhập
       Navigator.pushReplacementNamed(context, AppRoutes.login);
     }
   }

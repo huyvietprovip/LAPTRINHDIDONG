@@ -6,7 +6,8 @@ import '../utils/app_routes.dart';
 import '../utils/validators.dart';
 import '../widgets/custom_button.dart';
 import '../widgets/custom_text_field.dart';
-
+import '../providers/question_provider.dart'; 
+import '../providers/exam_provider.dart';
 /// Màn hình đăng ký tài khoản.
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -34,7 +35,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Future<void> _submit() async {
     if (!_formKey.currentState!.validate()) return;
 
+    // 1. Lưu lại các Provider vào biến cục bộ TRƯỚC khi gọi await
     final auth = context.read<AuthProvider>();
+    final questionProvider = context.read<QuestionProvider>();
+    final examProvider = context.read<ExamProvider>();
+
     final ok = await auth.register(
       _emailCtrl.text,
       _passwordCtrl.text,
@@ -42,7 +47,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
     );
 
     if (!mounted) return;
+
     if (ok) {
+      final uid = auth.user?.uid;
+      
+      // 2. Sử dụng biến cục bộ vừa lưu để gọi hàm (tránh hoàn toàn lỗi gạch đỏ context)
+      await questionProvider.loadAllData(uid: uid);
+      if (!mounted) return;
+      
+      await examProvider.loadHistory(uid: uid);
+      if (!mounted) return;
+
       Navigator.pushNamedAndRemoveUntil(
         context,
         AppRoutes.home,
