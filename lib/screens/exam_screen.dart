@@ -61,13 +61,26 @@ class _ExamScreenState extends State<ExamScreen> {
             child: const Text('Làm tiếp'),
           ),
           ElevatedButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.primary,
-              foregroundColor: Colors.white,
-            ),
-            child: const Text('Nộp bài'),
-          ),
+  onPressed: () async {
+    // 1. Đóng hộp thoại xác nhận trước
+    Navigator.pop(ctx, true);
+
+    // 2. Lấy Provider và gọi hàm nộp bài
+    final examProvider = Provider.of<ExamProvider>(context, listen: false);
+    
+    // Lấy uid hiện tại của user (nếu có) truyền vào
+    // (hoặc để trống nếu app tự lấy, tùy theo cách bạn gọi ở ExamScreen)
+    await examProvider.submitExam();
+
+    // 3. Chuyển hướng sang màn hình kết quả thi
+    Navigator.pushReplacementNamed(context, AppRoutes.examResult);
+  },
+  style: ElevatedButton.styleFrom(
+    backgroundColor: AppColors.primary,
+    foregroundColor: Colors.white,
+  ),
+  child: const Text('Nộp bài'),
+),
         ],
       ),
     );

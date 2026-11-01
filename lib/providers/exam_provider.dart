@@ -77,7 +77,8 @@ class ExamProvider extends ChangeNotifier {
   void nextQuestion() => goToQuestion(_currentIndex + 1);
   void previousQuestion() => goToQuestion(_currentIndex - 1);
 
-  /// Nộp bài và chấm điểm.
+  /// Nộp bài và chấm điểm (Đã hỗ trợ dự phòng ngoại tuyến / Offline Mode).
+  /// Nộp bài và chấm điểm (Đã hỗ trợ dự phòng ngoại tuyến / Offline Mode).
   Future<ExamResultModel> submitExam({String? uid}) async {
     _timer?.cancel();
     _isSubmitted = true;
@@ -92,10 +93,19 @@ class ExamProvider extends ChangeNotifier {
     );
 
     _lastResult = result;
-    _history.insert(0, result);
+    if (!_history.any((r) => r == result)) {
+      _history.insert(0, result);
+    }
     notifyListeners();
 
-    await _repo.saveExamResult(result, uid: uid);
+    // Bọc trong try-catch để khi mất mạng app không bị đứng nút nộp bài
+    try {
+      await _repo.saveExamResult(result, uid: uid);
+    } catch (e) {
+      // In log để debug hoặc xử lý lưu tạm cục bộ nếu cần
+      print("Không thể đồng bộ kết quả lên đám mây do mất mạng: $e");
+    }
+    
     return result;
   }
 

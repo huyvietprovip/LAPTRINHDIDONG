@@ -6,15 +6,18 @@ import '../models/user_model.dart';
 import '../utils/app_constants.dart';
 import 'firebase_service.dart';
 
-/// Dịch vụ xác thực người dùng.
+/// Dịch vụ xác thực người dùng (Kết hợp Firebase & SharedPreferences cục bộ).
 class AuthService {
   static const String _localUserKey = 'local_logged_in_user';
 
-  /// Lấy người dùng hiện tại.
+  /// Lấy người dùng hiện tại (Hỗ trợ dự phòng offline bằng SharedPreferences).
   Future<UserModel?> getCurrentUser() async {
     if (FirebaseService.isAvailable) {
       final fbUser = FirebaseAuth.instance.currentUser;
-      if (fbUser == null) return null;
+      if (fbUser == null) {
+        // Nếu Firebase không có, thử lấy từ local cache
+        return await _getUserFromLocal();
+      }
 
       final doc = await FirebaseFirestore.instance
           .collection(AppConstants.usersCollection)
@@ -22,28 +25,51 @@ class AuthService {
           .get();
 
       if (doc.exists && doc.data() != null) {
-        return UserModel.fromMap(doc.data()!);
+        final user = UserModel.fromMap(doc.data()!);
+        await _saveUserToLocal(user); // Lưu cache cục bộ
+        return user;
       }
-      return UserModel(
+      
+      final user = UserModel(
         uid: fbUser.uid,
         email: fbUser.email ?? '',
         displayName: fbUser.displayName ?? 'Học viên',
         createdAt: fbUser.metadata.creationTime ?? DateTime.now(),
       );
+      await _saveUserToLocal(user);
+      return user;
     } else {
+      // Khi mất mạng / Không có Firebase -> Đọc từ bộ nhớ cục bộ
+      return await _getUserFromLocal();
+    }
+  }
+
+  Future<void> _saveUserToLocal(UserModel user) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString(_localUserKey, jsonEncode(user.toMap()));
+    } catch (_) {}
+  }
+
+  Future<UserModel?> _getUserFromLocal() async {
+    try {
       final prefs = await SharedPreferences.getInstance();
       final raw = prefs.getString(_localUserKey);
       if (raw == null) return null;
       return UserModel.fromMap(jsonDecode(raw) as Map<String, dynamic>);
+    } catch (_) {
+      return null;
     }
   }
 
   /// Đăng nhập bằng email và mật khẩu.
+  /// Đăng nhập bằng email và mật khẩu (Hỗ trợ bắt lỗi mất mạng tự động chuyển sang Local).
   Future<UserModel> signIn({
     required String email,
     required String password,
   }) async {
-    if (FirebaseService.isAvailable) {
+    try {
+      // Cố gắng gọi Firebase đăng nhập trực tuyến
       final cred = await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: email.trim(),
         password: password,
@@ -54,26 +80,30 @@ class AuthService {
           .doc(fbUser.uid)
           .get();
 
+      UserModel user;
       if (doc.exists && doc.data() != null) {
-        return UserModel.fromMap(doc.data()!);
+        user = UserModel.fromMap(doc.data()!);
+      } else {
+        user = UserModel(
+          uid: fbUser.uid,
+          email: fbUser.email ?? email,
+          displayName: fbUser.displayName ?? email.split('@').first,
+          createdAt: DateTime.now(),
+        );
       }
-      return UserModel(
-        uid: fbUser.uid,
-        email: fbUser.email ?? email,
-        displayName: fbUser.displayName ?? email.split('@').first,
-        createdAt: DateTime.now(),
-      );
-    } else {
-      // Chế độ Local khi chưa bật Firebase
-      final prefs = await SharedPreferences.getInstance();
-      final user = UserModel(
-        uid: 'local_${email.trim().hashCode}',
-        email: email.trim(),
-        displayName: email.trim().split('@').first,
-        createdAt: DateTime.now(),
-      );
-      await prefs.setString(_localUserKey, jsonEncode(user.toMap()));
+      await _saveUserToLocal(user);
       return user;
+    } catch (e) {
+      // NẾU GẶP LỖI MẤT MẠNG HOẶC LỖI KẾT NỐI -> Tự động chuyển sang chế độ Local (SharedPreferences)
+      final errorMessage = e.toString();
+      if (errorMessage.contains('network-request-failed') || errorMessage.contains('network') || !FirebaseService.isAvailable) {
+        final localUser = await _getUserFromLocal();
+        if (localUser != null) {
+          return localUser; // Trả về tài khoản đã lưu cục bộ trước đó
+        }
+      }
+      // Nếu không phải lỗi mạng hoặc chưa từng lưu cục bộ thì báo lỗi bình thường
+      rethrow;
     }
   }
 
@@ -102,16 +132,16 @@ class AuthService {
           .doc(user.uid)
           .set(user.toMap());
 
+      await _saveUserToLocal(user);
       return user;
     } else {
-      final prefs = await SharedPreferences.getInstance();
       final user = UserModel(
         uid: 'local_${DateTime.now().millisecondsSinceEpoch}',
         email: email.trim(),
         displayName: displayName.trim(),
         createdAt: DateTime.now(),
       );
-      await prefs.setString(_localUserKey, jsonEncode(user.toMap()));
+      await _saveUserToLocal(user);
       return user;
     }
   }
@@ -130,10 +160,8 @@ class AuthService {
           .collection(AppConstants.usersCollection)
           .doc(updated.uid)
           .set(updated.toMap());
-    } else {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setString(_localUserKey, jsonEncode(updated.toMap()));
     }
+    await _saveUserToLocal(updated);
     return updated;
   }
 
